@@ -1,0 +1,1045 @@
+{
+  "__v": 13,
+  "config": {
+    "inst": {
+      "nombre": "Instituto de Educación Superior Tecnológico Público “Federico Uranga”",
+      "nombreCorto": "IESTP “Federico Uranga”",
+      "siglaBanner": "IESTP FEDERICO URANGA",
+      "logoSigla": "FU",
+      "slogan": "Formación tecnológica de calidad",
+      "lema": "",
+      "direccion": "Por completar — Independencia, Pisco, Ica",
+      "telefono": "",
+      "telefonoNota": "Central institucional",
+      "correo": "",
+      "horario": "Por completar",
+      "horarioSab": "",
+      "ruc": "",
+      "codigoModular": "",
+      "fechaCreacion": "",
+      "normaCreacion": "",
+      "lat": null,
+      "lng": null,
+      "descripcion": "Información institucional por completar.",
+      "logo": "/assets/fu/logo.png",
+      "colorPrimario": "#0b1d3f",
+      "denominacionAnio": ""
+    },
+    "redes": {
+      "facebook": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "twitter": ""
+    },
+    "whatsapp": {
+      "numero": "",
+      "mensaje": "Hola, deseo información sobre el IESTP Federico Uranga.",
+      "activo": false
+    },
+    "seo": {
+      "titulo": "IESTP Federico Uranga | Portal institucional",
+      "descripcion": "Portal institucional del IESTP Federico Uranga: programas de estudio, admisión, transparencia y servicios en línea.",
+      "imagen": "/assets/fu/logo.png"
+    },
+    "correoReclamos": "",
+    "correoContacto": "",
+    "simularFalloCorreo": false,
+    "limites": {
+      "descripcion": 2000,
+      "pedido": 1000
+    },
+    "contadores": {
+      "LR": {},
+      "EXP": {},
+      "MPV": {},
+      "DOC": {},
+      "RCL": {}
+    },
+    "uit": {
+      "2025": 5350,
+      "2026": 5500
+    },
+    "popup": {
+      "activo": false,
+      "titulo": "Conoce nuestros programas de estudio",
+      "texto": "Formación profesional técnica en el IESTP Federico Uranga.",
+      "enlace": "#/programas",
+      "boton": "Ver programas",
+      "imagen": "/assets/fu/logo.png",
+      "inicio": "",
+      "fin": ""
+    },
+    "home": {
+      "bloques": [
+        {
+          "k": "slider",
+          "label": "Carrusel principal",
+          "on": true
+        },
+        {
+          "k": "accesos",
+          "label": "Accesos rápidos",
+          "on": true
+        },
+        {
+          "k": "bienvenida",
+          "label": "Bienvenida de la Dirección",
+          "on": true
+        },
+        {
+          "k": "cifras",
+          "label": "Cifras institucionales",
+          "on": true
+        },
+        {
+          "k": "programas",
+          "label": "Programas de estudio",
+          "on": true
+        },
+        {
+          "k": "noticias",
+          "label": "Noticias recientes",
+          "on": true
+        },
+        {
+          "k": "beneficios",
+          "label": "¿Por qué estudiar aquí?",
+          "on": true
+        },
+        {
+          "k": "jerarquica",
+          "label": "Plana jerárquica",
+          "on": true
+        },
+        {
+          "k": "testimonios",
+          "label": "Testimonios de egresados",
+          "on": true
+        },
+        {
+          "k": "eventos",
+          "label": "Eventos próximos",
+          "on": true
+        },
+        {
+          "k": "enlaces",
+          "label": "Enlaces MINEDU",
+          "on": true
+        }
+      ],
+      "accesos": [
+        {
+          "titulo": "Mesa de Partes",
+          "texto": "Trámites en línea",
+          "icono": "clipboard",
+          "enlace": "#/servicios/mesa-de-partes"
+        },
+        {
+          "titulo": "Consulta de Certificados",
+          "texto": "Verifica tus documentos",
+          "icono": "grad",
+          "enlace": "#/servicios/consulta-certificados"
+        },
+        {
+          "titulo": "Libro de Reclamaciones",
+          "texto": "Registra y consulta tu reclamo",
+          "icono": "book",
+          "enlace": "#/servicios/libro-de-reclamaciones"
+        },
+        {
+          "titulo": "Bolsa Laboral",
+          "texto": "Ofertas laborales",
+          "icono": "briefcase",
+          "enlace": "#/servicios/bolsa-laboral"
+        }
+      ],
+      "cifras": [
+        {
+          "label": "Años de servicio",
+          "valor": "auto:anios",
+          "corte": "2026"
+        },
+        {
+          "label": "Programas de estudio",
+          "valor": "auto:programas",
+          "corte": "2026"
+        }
+      ],
+      "beneficios": [
+        {
+          "t": "Formación práctica",
+          "d": "Por completar",
+          "i": "building"
+        },
+        {
+          "t": "Programas de estudio",
+          "d": "Por completar",
+          "i": "book"
+        },
+        {
+          "t": "Educación pública",
+          "d": "Por completar",
+          "i": "grad"
+        }
+      ]
+    },
+    "tema": "pisco",
+    "mpv": {
+      "horaIni": "08:00",
+      "horaFin": "15:40",
+      "dias": "Lunes a viernes",
+      "maxMB": 40,
+      "maxArchivos": 5,
+      "tipos": [
+        "Solicitud",
+        "Oficio",
+        "Carta",
+        "Informe",
+        "Memorando",
+        "Recurso administrativo",
+        "Reclamo",
+        "Queja",
+        "Denuncia",
+        "Declaración jurada",
+        "FUT (Formulario Único de Trámite)",
+        "Expediente administrativo",
+        "Otros"
+      ],
+      "formatos": [
+        "pdf",
+        "doc",
+        "docx",
+        "xls",
+        "xlsx",
+        "jpg",
+        "jpeg",
+        "png"
+      ],
+      "feriados": [
+        "2026-01-01",
+        "2026-04-02",
+        "2026-04-03",
+        "2026-05-01",
+        "2026-06-07",
+        "2026-06-29",
+        "2026-07-23",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-08-06",
+        "2026-08-30",
+        "2026-10-08",
+        "2026-11-01",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-25"
+      ],
+      "plazos": {
+        "Solicitud": 10,
+        "Oficio": 7,
+        "Carta": 7,
+        "Informe": 7,
+        "Memorando": 5,
+        "Recurso administrativo": 30,
+        "Reclamo": 15,
+        "Queja": 3,
+        "Denuncia": 30,
+        "Declaración jurada": 5,
+        "FUT (Formulario Único de Trámite)": 10,
+        "Expediente administrativo": 30,
+        "Otros": 10
+      },
+      "correo": "",
+      "telefono": "",
+      "prefijo": "MPV-IESTPFU"
+    },
+    "lr": {
+      "responsable": "",
+      "cargo": "",
+      "correo": "",
+      "plazoReclamo": 15,
+      "plazoQueja": 15,
+      "alerta": 3,
+      "areaInicial": "ADM",
+      "flujo": "El reclamo o queja se registra en el Libro de Reclamaciones Virtual y se notifica al responsable institucional. El responsable lo deriva al área competente, que lo atiende y propone la respuesta. El responsable remite la respuesta al usuario por correo electrónico dentro del plazo. Todo el recorrido queda en el historial."
+    },
+    "bolsa": {
+      "responsable": "",
+      "jefe": "",
+      "correo": "",
+      "criterios": [
+        "RUC de 11 dígitos válido (dígito verificador), en estado ACTIVO y condición HABIDO en SUNAT.",
+        "Razón social, sector económico y dirección fiscal coincidentes con la ficha RUC.",
+        "Persona de contacto con cargo y correo corporativo o institucional verificable.",
+        "Actividad económica lícita y vinculada a los programas de estudio del instituto.",
+        "Las convocatorias deben indicar puesto, requisitos, modalidad y fecha límite; no se aceptan cobros a postulantes.",
+        "Plazo de evaluación: hasta 3 días hábiles desde el registro."
+      ]
+    },
+    "temas": {
+      "pisco": {
+        "label": "Federico Uranga institucional",
+        "desc": "Tema del portal institucional del IESTP Federico Uranga",
+        "modo": "claro",
+        "navy": "#0b1d3f",
+        "navy2": "#123a7a",
+        "blue": "#0a7fc2",
+        "gold": "#f5c400",
+        "fh": "Montserrat",
+        "ff": "Inter",
+        "r": 12,
+        "base": true
+      },
+      "institucional": {
+        "label": "Institucional",
+        "desc": "Azul marino y dorado",
+        "modo": "claro",
+        "navy": "#0a2a5e",
+        "navy2": "#0d3a80",
+        "blue": "#1556b8",
+        "gold": "#f2b705",
+        "fh": "Montserrat",
+        "ff": "Inter",
+        "r": 12,
+        "base": true
+      },
+      "esmeralda": {
+        "label": "Esmeralda",
+        "desc": "Verde y ámbar",
+        "modo": "claro",
+        "navy": "#0b3d2e",
+        "navy2": "#0f5a42",
+        "blue": "#12805a",
+        "gold": "#f4b400",
+        "fh": "Poppins",
+        "ff": "Inter",
+        "r": 16,
+        "base": true
+      },
+      "vino": {
+        "label": "Académico",
+        "desc": "Vino y oro, títulos con serifa",
+        "modo": "claro",
+        "navy": "#4a0f1f",
+        "navy2": "#6d1a2e",
+        "blue": "#9e2238",
+        "gold": "#d9a520",
+        "fh": "Merriweather",
+        "ff": "Inter",
+        "r": 6,
+        "base": true
+      },
+      "noche": {
+        "label": "Noche",
+        "desc": "Modo oscuro",
+        "modo": "oscuro",
+        "navy": "#0a1428",
+        "navy2": "#13244a",
+        "blue": "#2f6fe0",
+        "gold": "#fbbf24",
+        "fh": "Montserrat",
+        "ff": "Inter",
+        "r": 12,
+        "base": true
+      }
+    },
+    "enlacesV2": true
+  },
+  "slides": [
+    {
+      "id": "fu-slide-1",
+      "titulo": "IESTP Federico Uranga",
+      "texto": "Formación profesional técnica · Pisco, Ica",
+      "boton": "Ver programas",
+      "enlace": "#/programas",
+      "imagen": null,
+      "orden": 1,
+      "estado": "Publicado"
+    }
+  ],
+  "enlaces": [
+    {
+      "id": "minedu",
+      "nombre": "Ministerio de Educación",
+      "url": "https://www.gob.pe/minedu",
+      "grupo": "Institucional",
+      "estado": "Activo",
+      "verificado": ""
+    },
+    {
+      "id": "registra",
+      "nombre": "REGISTRA",
+      "url": "https://registra.minedu.gob.pe/#!/",
+      "grupo": "Institucional",
+      "estado": "Activo",
+      "verificado": ""
+    },
+    {
+      "id": "conecta",
+      "nombre": "CONECTA",
+      "url": "https://conecta.minedu.gob.pe/",
+      "grupo": "Institucional",
+      "estado": "Activo",
+      "verificado": ""
+    },
+    {
+      "id": "titula",
+      "nombre": "TITULA",
+      "url": "https://titula.minedu.gob.pe/",
+      "grupo": "Institucional",
+      "estado": "Activo",
+      "verificado": ""
+    }
+  ],
+  "paginas": [
+    {
+      "id": "pg-presentacion",
+      "clave": "presentacion",
+      "titulo": "Presentación",
+      "slug": "presentacion",
+      "contenido": "<h2>Bienvenidos al IESTP Federico Uranga</h2><p>Mensaje de la Dirección por completar.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-resena",
+      "clave": "resena",
+      "titulo": "Reseña Histórica",
+      "slug": "resena-historica",
+      "contenido": "<p>Reseña histórica por completar.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-mision",
+      "clave": "mision",
+      "titulo": "Misión, Visión y Valores",
+      "slug": "mision-vision",
+      "contenido": "<h2>Misión</h2><p>Por completar.</p><h2>Visión</h2><p>Por completar.</p><h2>Valores</h2><p>Por completar.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-organizacion",
+      "clave": "organizacion",
+      "titulo": "Organización Institucional",
+      "slug": "organizacion",
+      "contenido": "<p>Organigrama y estructura institucional por completar.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-reconocimientos",
+      "clave": "reconocimientos",
+      "titulo": "Reconocimientos",
+      "slug": "reconocimientos",
+      "contenido": "<p>Reconocimientos por completar.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-jerarquica",
+      "clave": "jerarquica",
+      "titulo": "Plana Jerárquica",
+      "slug": "plana-jerarquica",
+      "contenido": "<p>Plana jerárquica del IESTP Federico Uranga.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-docentes",
+      "clave": "docentes",
+      "titulo": "Plana Docente",
+      "slug": "plana-docente",
+      "contenido": "<p>Plana docente del IESTP Federico Uranga.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-campus",
+      "clave": "campus",
+      "titulo": "Campus e Informes",
+      "slug": "campus-e-informes",
+      "contenido": "<p>Información del campus e informes por completar.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-privacidad",
+      "clave": "privacidad",
+      "titulo": "Política de Privacidad",
+      "slug": "politica-de-privacidad",
+      "contenido": "<p>En cumplimiento de la <strong>Ley N.º 29733, Ley de Protección de Datos Personales</strong>, y su reglamento, el instituto informa que los datos personales registrados a través de los formularios de este portal (Contáctanos, Libro de Reclamaciones, Mesa de Partes Virtual y otros) serán tratados únicamente para atender la solicitud del titular.</p><h2>Finalidad</h2><ul><li>Atender consultas, reclamos, quejas y trámites.</li><li>Enviar constancias y respuestas al correo registrado.</li><li>Elaborar estadísticas internas sin identificar a las personas.</li></ul><h2>Conservación y seguridad</h2><p>Los datos se almacenan en servidores institucionales con acceso restringido por roles y registro de auditoría. No se publican ni se ceden a terceros, salvo mandato legal.</p><h2>Derechos ARCO</h2><p>El titular puede ejercer sus derechos de acceso, rectificación, cancelación y oposición escribiendo al correo institucional publicado en la página de contacto.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-terminos",
+      "clave": "terminos",
+      "titulo": "Términos de Uso",
+      "slug": "terminos-de-uso",
+      "contenido": "<p>El contenido de este portal es de carácter informativo y es administrado por el instituto. Los documentos oficiales publicados en la sección Transparencia prevalecen sobre cualquier otra información.</p><p>Los enlaces a sistemas externos (MINEDU, biblioteca virtual, bolsa de trabajo y otros) se rigen por las condiciones de sus respectivos titulares.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-faq",
+      "clave": "faq",
+      "titulo": "Preguntas Frecuentes",
+      "slug": "preguntas-frecuentes",
+      "contenido": "<h2>¿Dónde está el instituto?</h2><p>Por completar.</p><h2>¿Cuánto duran los programas?</h2><p>Por completar.</p><h2>¿Dónde consulto admisión y matrícula?</h2><p>En las secciones Admisión y Matrícula de este portal.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "pg-fu-inversiones",
+      "clave": "inversiones",
+      "titulo": "Inversiones y Recursos Económicos",
+      "slug": "inversiones",
+      "contenido": "<p>Inversiones, donaciones y obras de infraestructura por completar.</p>",
+      "imagen": null,
+      "mensaje": "",
+      "estado": "Publicada",
+      "versiones": [],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    }
+  ],
+  "reconocimientos": [],
+  "programas": [],
+  "personas": [],
+  "jerarquica": [],
+  "egresados": [],
+  "categoriasNoticia": [
+    {
+      "id": "fu-noticias",
+      "nombre": "Noticias institucionales",
+      "slug": "noticias",
+      "orden": 1,
+      "estado": "Activo"
+    }
+  ],
+  "noticias": [],
+  "eventos": [],
+  "tiposDocumento": [
+    {
+      "id": "td1",
+      "nombre": "Plan",
+      "estado": "Activo"
+    },
+    {
+      "id": "td2",
+      "nombre": "Reglamento",
+      "estado": "Activo"
+    },
+    {
+      "id": "td3",
+      "nombre": "Manual",
+      "estado": "Activo"
+    },
+    {
+      "id": "td4",
+      "nombre": "Directiva",
+      "estado": "Activo"
+    },
+    {
+      "id": "td5",
+      "nombre": "Resolución",
+      "estado": "Activo"
+    },
+    {
+      "id": "td6",
+      "nombre": "Informe",
+      "estado": "Activo"
+    }
+  ],
+  "documentos": [],
+  "tupa": [],
+  "tupaDocs": {
+    "anio": 2026,
+    "resolucion": null,
+    "tupa": null,
+    "referencia": "",
+    "fuente": ""
+  },
+  "estadisticas": [],
+  "licenciamiento": {
+    "estado": "En proceso",
+    "etapa": "Por completar",
+    "resolucion": "",
+    "fechaResolucion": "",
+    "vigenciaHasta": "",
+    "descripcion": "Por completar",
+    "hitos": [],
+    "documentos": [],
+    "modPor": "importacion-fu",
+    "modEn": "2026-11-02T00:00:00-05:00"
+  },
+  "inversiones": [],
+  "convocatorias": [],
+  "admisiones": [],
+  "matriculas": [],
+  "tiposBeca": [
+    {
+      "id": "tb100",
+      "nombre": "Exoneración 100 %",
+      "descripcion": "Primer puesto del periodo académico anterior.",
+      "estado": "Activo"
+    },
+    {
+      "id": "tb50",
+      "nombre": "Exoneración 50 %",
+      "descripcion": "Segundo puesto del periodo académico anterior.",
+      "estado": "Activo"
+    }
+  ],
+  "becasPeriodos": [],
+  "becarios": [],
+  "reclamos": [],
+  "mensajes": [],
+  "expedientes": [],
+  "certificados": [],
+  "locales": [
+    {
+      "id": "fu-local-principal",
+      "nombre": "Sede principal",
+      "direccion": "Por completar — Independencia, Pisco, Ica",
+      "telefono": "",
+      "correo": "",
+      "horario": "Por completar",
+      "lat": null,
+      "lng": null,
+      "foto": null,
+      "estado": "Publicado",
+      "orden": 1,
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    }
+  ],
+  "servicios": [
+    {
+      "id": "fu-servicio-1",
+      "nombre": "Servicio psicopedagógico",
+      "descripcion": "Por completar",
+      "ubicacion": "Sede principal",
+      "horario": "Por completar",
+      "costo": "Consultar con la institución.",
+      "responsable": "",
+      "icono": "heart",
+      "estado": "Publicado",
+      "orden": 1,
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "fu-servicio-2",
+      "nombre": "Servicio de bienestar",
+      "descripcion": "Por completar",
+      "ubicacion": "Sede principal",
+      "horario": "Por completar",
+      "costo": "Consultar con la institución.",
+      "responsable": "",
+      "icono": "users",
+      "estado": "Publicado",
+      "orden": 2,
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "fu-servicio-3",
+      "nombre": "Servicio de asistencia social",
+      "descripcion": "Por completar",
+      "ubicacion": "Sede principal",
+      "horario": "Por completar",
+      "costo": "Consultar con la institución.",
+      "responsable": "",
+      "icono": "users",
+      "estado": "Publicado",
+      "orden": 3,
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "fu-servicio-4",
+      "nombre": "Servicio de empleabilidad",
+      "descripcion": "Por completar",
+      "ubicacion": "Sede principal",
+      "horario": "Por completar",
+      "costo": "Consultar con la institución.",
+      "responsable": "",
+      "icono": "briefcase",
+      "estado": "Publicado",
+      "orden": 4,
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "fu-servicio-5",
+      "nombre": "Servicio de tópico",
+      "descripcion": "Por completar",
+      "ubicacion": "Sede principal",
+      "horario": "Por completar",
+      "costo": "Consultar con la institución.",
+      "responsable": "",
+      "icono": "heart",
+      "estado": "Publicado",
+      "orden": 5,
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    },
+    {
+      "id": "fu-servicio-6",
+      "nombre": "Mesa de Partes presencial",
+      "descripcion": "Por completar",
+      "ubicacion": "Sede principal",
+      "horario": "Por completar",
+      "costo": "Consultar con la institución.",
+      "responsable": "",
+      "icono": "clipboard",
+      "estado": "Publicado",
+      "orden": 6,
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T00:00:00-05:00"
+    }
+  ],
+  "usuarios": [],
+  "auditoria": [],
+  "visitas": {},
+  "academico": {
+    "v": 3,
+    "cfg": {
+      "nombre": "Instituto de Educación Superior Tecnológico Público “Federico Uranga”",
+      "siglas": "IESTP FEDERICO URANGA",
+      "director": "",
+      "direccion": "Por completar — Independencia, Pisco, Ica",
+      "web": "",
+      "periodo": "2026-II",
+      "plazoReclamo": 15,
+      "horarioAtencion": "Por completar",
+      "maxAdjuntoMB": 10,
+      "docs": {
+        "logoIzq": {
+          "src": "/assets/fu/logo.png",
+          "w": 300,
+          "h": 111
+        },
+        "logoDer": null
+      },
+      "docsLogoInit": true
+    },
+    "seq": {
+      "est": 0,
+      "cert": 0,
+      "titulo": 0
+    },
+    "programas": [],
+    "uds": [],
+    "docentes": [],
+    "ambientes": [],
+    "sesiones": [],
+    "publicados": {},
+    "modulos": [],
+    "estudiantes": [],
+    "certs": [],
+    "notas": [],
+    "titulos": [],
+    "areas": [
+      {
+        "id": 1,
+        "cod": "MP",
+        "nivel": "Mesa de Partes",
+        "nombre": "Mesa de Partes",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      },
+      {
+        "id": 2,
+        "cod": "DG",
+        "nivel": "Dirección",
+        "nombre": "Dirección General",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      },
+      {
+        "id": 3,
+        "cod": "ADM",
+        "nivel": "Unidades",
+        "nombre": "Unidad Administrativa",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      },
+      {
+        "id": 4,
+        "cod": "UA",
+        "nivel": "Unidades",
+        "nombre": "Unidad Académica",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      },
+      {
+        "id": 5,
+        "cod": "SA",
+        "nivel": "Áreas",
+        "nombre": "Secretaría Académica",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      },
+      {
+        "id": 6,
+        "cod": "UBE",
+        "nivel": "Áreas",
+        "nombre": "Bienestar y Empleabilidad",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      },
+      {
+        "id": 7,
+        "cod": "UI",
+        "nivel": "Áreas",
+        "nombre": "Investigación",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      },
+      {
+        "id": 8,
+        "cod": "UFC",
+        "nivel": "Áreas",
+        "nombre": "Formación Continua",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      },
+      {
+        "id": 9,
+        "cod": "CAL",
+        "nivel": "Áreas",
+        "nombre": "Calidad",
+        "resp": "Por completar",
+        "correo": "",
+        "activo": true
+      }
+    ],
+    "tramites": [],
+    "expedientes": [],
+    "reclamos": [],
+    "empresas": [],
+    "ofertas": [],
+    "postulaciones": [],
+    "perfilesLab": [],
+    "perfilesDoc": [],
+    "usuarios": [],
+    "perms": {
+      "admin": {
+        "inicio": 2,
+        "horarios": 2,
+        "certificados": 2,
+        "titulos": 2,
+        "reclamos": 2,
+        "mesa": 2,
+        "bolsa": 2,
+        "docentes": 2,
+        "usuarios": 2,
+        "bitacora": 2,
+        "config": 2,
+        "arquitectura": 1,
+        "alumnos": 2
+      },
+      "dir": {
+        "inicio": 1,
+        "horarios": 1,
+        "certificados": 1,
+        "titulos": 1,
+        "reclamos": 1,
+        "mesa": 2,
+        "bolsa": 1,
+        "docentes": 1,
+        "usuarios": 0,
+        "bitacora": 1,
+        "config": 0,
+        "arquitectura": 1,
+        "alumnos": 1
+      },
+      "acad": {
+        "inicio": 1,
+        "horarios": 2,
+        "certificados": 2,
+        "titulos": 2,
+        "reclamos": 0,
+        "mesa": 2,
+        "bolsa": 0,
+        "docentes": 1,
+        "usuarios": 0,
+        "bitacora": 0,
+        "config": 0,
+        "arquitectura": 1,
+        "alumnos": 2
+      },
+      "adm": {
+        "inicio": 1,
+        "horarios": 0,
+        "certificados": 0,
+        "titulos": 0,
+        "reclamos": 2,
+        "mesa": 2,
+        "bolsa": 2,
+        "docentes": 1,
+        "usuarios": 0,
+        "bitacora": 0,
+        "config": 0,
+        "arquitectura": 0,
+        "alumnos": 1
+      },
+      "doc": {
+        "inicio": 1,
+        "horarios": 1,
+        "certificados": 0,
+        "titulos": 0,
+        "reclamos": 1,
+        "mesa": 1,
+        "bolsa": 0,
+        "docentes": 1,
+        "usuarios": 0,
+        "bitacora": 0,
+        "config": 0,
+        "arquitectura": 0
+      },
+      "est": {
+        "inicio": 1,
+        "horarios": 1,
+        "certificados": 1,
+        "titulos": 0,
+        "reclamos": 1,
+        "mesa": 1,
+        "bolsa": 1,
+        "docentes": 1,
+        "usuarios": 0,
+        "bitacora": 0,
+        "config": 0,
+        "arquitectura": 0
+      },
+      "egr": {
+        "inicio": 1,
+        "horarios": 0,
+        "certificados": 1,
+        "titulos": 1,
+        "reclamos": 1,
+        "mesa": 1,
+        "bolsa": 1,
+        "docentes": 1,
+        "usuarios": 0,
+        "bitacora": 0,
+        "config": 0,
+        "arquitectura": 0
+      },
+      "emp": {
+        "inicio": 1,
+        "horarios": 0,
+        "certificados": 0,
+        "titulos": 0,
+        "reclamos": 1,
+        "mesa": 1,
+        "bolsa": 1,
+        "docentes": 0,
+        "usuarios": 0,
+        "bitacora": 0,
+        "config": 0,
+        "arquitectura": 0
+      }
+    },
+    "docs": [],
+    "notifs": [],
+    "bitacora": [],
+    "progMap": {}
+  },
+  "correos": [],
+  "suscriptores": []
+}
