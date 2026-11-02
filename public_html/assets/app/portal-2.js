@@ -1368,7 +1368,7 @@ function maybePopup() {
   const p = DB.config.popup; if (!p.activo || PREVIEW) return;
   const today = new Date().toISOString().slice(0, 10); if ((p.inicio && today < p.inicio) || (p.fin && today > p.fin)) return;
   try { if (sessionStorage.getItem('popup_seen')) return; sessionStorage.setItem('popup_seen', '1'); } catch (e) { }
-  const m = modal({ title: esc(p.titulo), size: 'sm', body: `${p.imagen ? `<img src="${img(p.imagen)}" alt="" style="border-radius:10px;margin-bottom:12px;aspect-ratio:16/10;object-fit:cover;width:100%">` : ''}<p>${esc(p.texto)}</p>`, foot: p.enlace ? `<a class="btn gold" ${linkAttrs(p.enlace)} data-go>${esc(p.boton || 'Ver más')}</a>` : '' });
+  const m = modal({ title: esc(p.titulo), size: p.imagen ? '' : 'sm', body: `${p.imagen ? `<img src="${img(p.imagen)}" alt="${esc(p.titulo)}" style="display:block;border-radius:10px;margin:0 auto 12px;width:100%;height:auto;max-height:65vh;object-fit:contain">` : ''}<p>${esc(p.texto)}</p>`, foot: p.enlace ? `<a class="btn gold" ${linkAttrs(p.enlace)} data-go>${esc(p.boton || 'Ver más')}</a>` : '' });
   const g = $('[data-go]', m.el); if (g) g.addEventListener('click', () => m.close());
 }
 
