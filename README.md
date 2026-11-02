@@ -11,7 +11,7 @@ El archivo `portal-private/config.php` (datos de la base de datos y clave de ins
 
 1. **Base de datos:** en hPanel › *Bases de datos › Bases de datos MySQL*, crea una base y un usuario con su contraseña. Anota los tres datos.
 2. **Descarga el código:** en GitHub, *Code › Download ZIP*.
-3. **Sube y extrae:** con el *Administrador de archivos*, sube el ZIP a la carpeta del dominio (la que contiene `public_html`) y extráelo. GitHub mete todo en una carpeta `fu-main/`; mueve `portal-private/` y `public_html/` desde ahí a la carpeta del dominio y reemplaza el `public_html` vacío.
+3. **Sube y extrae:** con el *Administrador de archivos*, sube el ZIP a la carpeta del dominio (la que contiene `public_html`) y extráelo. GitHub mete todo en una carpeta con el nombre del repositorio (por ejemplo `fu-main/`); mueve `portal-private/` y `public_html/` desde ahí a la carpeta del dominio y reemplaza el `public_html` vacío.
 4. **Configura:** copia `portal-private/config.example.php` como `portal-private/config.php` y completa:
    - `db_name`, `db_user` y `db_password`;
    - `install_key`: una clave privada aleatoria de 32 caracteres o más. Guárdala.
