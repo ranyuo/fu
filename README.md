@@ -44,4 +44,8 @@ Los archivos públicos (logo, carrusel, fotos, PDF) van en `public_html/assets/f
 
 ## Estado del contenido
 
-La estructura está lista; la información institucional está marcada como **«Por completar»** en `portal-private/data/portal.json`. Pendiente de cargar: datos institucionales (RUC, código modular, dirección, teléfono, correos, redes), presentación, reseña, misión y visión, programas de estudio, plana jerárquica y docente, admisión, matrícula, becas, TUPA, documentos de transparencia, noticias y áreas de Mesa de partes.
+Cargado con la información del Oficio N.º 105-2026-IESTP"FU"-MFGQ/D: presentación, reseña histórica, misión y visión, organigrama, director, docentes de Asistencia Administrativa, programas de estudio (con plan de estudios de Mecánica Agrícola y módulo 1 de Asistencia Administrativa), admisión, matrícula, horario 2026-II, fotos de la nueva infraestructura, logo y banner.
+
+Se completó con **información estándar** (revisar y reemplazar cuando haya datos oficiales): valores institucionales, perfil y campo laboral de Industrias de Alimentos y Bebidas, campo laboral de los otros programas, requisitos de admisión, servicios, mensaje de la Dirección y beneficios de la portada.
+
+Pendiente: RUC, teléfono, redes sociales, dominio, responsables de las jefaturas, fotos del personal, TUPA, documentos de gestión (PEI, PAT, RI), vacantes y cronograma de admisión 2027.

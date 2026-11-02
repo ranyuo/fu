@@ -7,20 +7,20 @@
       "siglaBanner": "IESTP FEDERICO URANGA",
       "logoSigla": "FU",
       "slogan": "Formación tecnológica de calidad",
-      "lema": "",
-      "direccion": "Por completar — Independencia, Pisco, Ica",
+      "lema": "Rumbo al licenciamiento",
+      "direccion": "Av. San Martín N.º 300, sector Manrique, Independencia, Pisco, Ica",
       "telefono": "",
-      "telefonoNota": "Central institucional",
-      "correo": "",
-      "horario": "Por completar",
-      "horarioSab": "",
+      "telefonoNota": "",
+      "correo": "istpfedericouranga@gmail.com",
+      "horario": "Lunes a viernes, de 01:00 p. m. a 06:30 p. m.",
+      "horarioSab": "Sábados, domingos y feriados: sin atención presencial.",
       "ruc": "",
-      "codigoModular": "",
-      "fechaCreacion": "",
-      "normaCreacion": "",
+      "codigoModular": "1219146",
+      "fechaCreacion": "1991-01-01",
+      "normaCreacion": "Creado mediante R.L.R. N.º 007-91-GLW (Gobierno Regional Libertadores Wari, 1991). Revalidado por R.D. N.º 0035-2007-ED, del 22 de enero de 2007.",
       "lat": null,
       "lng": null,
-      "descripcion": "Información institucional por completar.",
+      "descripcion": "Institución pública de educación superior tecnológica de Independencia, Pisco, que forma profesionales técnicos competentes, éticos e innovadores en Asistencia Administrativa, Industrias de Alimentos y Bebidas y Mecánica Agrícola.",
       "logo": "/assets/fu/logo.png",
       "colorPrimario": "#0b1d3f",
       "denominacionAnio": ""
@@ -38,12 +38,12 @@
       "activo": false
     },
     "seo": {
-      "titulo": "IESTP Federico Uranga | Portal institucional",
-      "descripcion": "Portal institucional del IESTP Federico Uranga: programas de estudio, admisión, transparencia y servicios en línea.",
-      "imagen": "/assets/fu/logo.png"
+      "titulo": "IESTP Federico Uranga | Independencia, Pisco",
+      "descripcion": "IESTP “Federico Uranga” de Independencia, Pisco: Asistencia Administrativa, Industrias de Alimentos y Bebidas y Mecánica Agrícola. Admisión, matrícula, transparencia y servicios en línea.",
+      "imagen": "/assets/fu/banner-programas.jpg"
     },
-    "correoReclamos": "",
-    "correoContacto": "",
+    "correoReclamos": "istpfedericouranga@gmail.com",
+    "correoContacto": "istpfedericouranga@gmail.com",
     "simularFalloCorreo": false,
     "limites": {
       "descripcion": 2000,
@@ -61,12 +61,12 @@
       "2026": 5500
     },
     "popup": {
-      "activo": false,
-      "titulo": "Conoce nuestros programas de estudio",
-      "texto": "Formación profesional técnica en el IESTP Federico Uranga.",
+      "activo": true,
+      "titulo": "Programas de estudio",
+      "texto": "Asistencia Administrativa, Industrias de Alimentos y Bebidas y Mecánica Agrícola. Título a nombre de la Nación · Duración: 3 años.",
       "enlace": "#/programas",
       "boton": "Ver programas",
-      "imagen": "/assets/fu/logo.png",
+      "imagen": "/assets/fu/banner-programas.jpg",
       "inicio": "",
       "fin": ""
     },
@@ -164,31 +164,41 @@
           "label": "Programas de estudio",
           "valor": "auto:programas",
           "corte": "2026"
+        },
+        {
+          "label": "Estudiantes matriculados",
+          "valor": "180",
+          "corte": "2026-I"
+        },
+        {
+          "label": "Docentes",
+          "valor": "11",
+          "corte": "2026"
         }
       ],
       "beneficios": [
         {
-          "t": "Formación práctica",
-          "d": "Por completar",
+          "t": "Título a nombre de la Nación",
+          "d": "Al concluir tus estudios obtienes el título de Profesional Técnico a nombre de la Nación.",
+          "i": "grad"
+        },
+        {
+          "t": "Nueva infraestructura",
+          "d": "Un moderno local en construcción sobre un terreno propio de 3680.40 m², pensado para la formación práctica.",
           "i": "building"
         },
         {
-          "t": "Programas de estudio",
-          "d": "Por completar",
+          "t": "Educación pública de calidad",
+          "d": "Tres programas de estudio de 3 años vinculados con las necesidades productivas de Pisco y la región Ica.",
           "i": "book"
-        },
-        {
-          "t": "Educación pública",
-          "d": "Por completar",
-          "i": "grad"
         }
       ]
     },
     "tema": "pisco",
     "mpv": {
-      "horaIni": "08:00",
-      "horaFin": "15:40",
-      "dias": "Lunes a viernes",
+      "horaIni": "13:00",
+      "horaFin": "18:30",
+      "dias": "Lunes a viernes: 01:00 p. m. a 06:30 p. m.",
       "maxMB": 40,
       "maxArchivos": 5,
       "tipos": [
@@ -249,14 +259,14 @@
         "Expediente administrativo": 30,
         "Otros": 10
       },
-      "correo": "",
+      "correo": "istpfedericouranga@gmail.com",
       "telefono": "",
       "prefijo": "MPV-IESTPFU"
     },
     "lr": {
-      "responsable": "",
-      "cargo": "",
-      "correo": "",
+      "responsable": "Mag. Mario Freddy Guerra Quispe",
+      "cargo": "Director General",
+      "correo": "istpfedericouranga@gmail.com",
       "plazoReclamo": 15,
       "plazoQueja": 15,
       "alerta": 3,
@@ -266,7 +276,7 @@
     "bolsa": {
       "responsable": "",
       "jefe": "",
-      "correo": "",
+      "correo": "istpfedericouranga@gmail.com",
       "criterios": [
         "RUC de 11 dígitos válido (dígito verificador), en estado ACTIVO y condición HABIDO en SUNAT.",
         "Razón social, sector económico y dirección fiscal coincidentes con la ficha RUC.",
@@ -348,12 +358,42 @@
   "slides": [
     {
       "id": "fu-slide-1",
-      "titulo": "IESTP Federico Uranga",
-      "texto": "Formación profesional técnica · Pisco, Ica",
-      "boton": "Ver programas",
-      "enlace": "#/programas",
-      "imagen": null,
+      "titulo": "Nueva infraestructura para la formación técnica",
+      "texto": "IESTP “Federico Uranga” · Independencia, Pisco",
+      "boton": "Conócenos",
+      "enlace": "#/nosotros/presentacion",
+      "imagen": "/assets/fu/infraestructura-nueva.jpg",
       "orden": 1,
+      "estado": "Publicado"
+    },
+    {
+      "id": "fu-slide-2",
+      "titulo": "Asistencia Administrativa",
+      "texto": "Gestiona oficinas, documentos y recursos de las organizaciones",
+      "boton": "Conocer el programa",
+      "enlace": "#/programas/asistencia-administrativa",
+      "imagen": "/assets/fu/programa-asistencia-administrativa.jpg",
+      "orden": 2,
+      "estado": "Publicado"
+    },
+    {
+      "id": "fu-slide-3",
+      "titulo": "Industrias de Alimentos y Bebidas",
+      "texto": "Transforma la producción agrícola de la región con calidad e inocuidad",
+      "boton": "Conocer el programa",
+      "enlace": "#/programas/industrias-de-alimentos-y-bebidas",
+      "imagen": "/assets/fu/programa-industrias-alimentos-bebidas.jpg",
+      "orden": 3,
+      "estado": "Publicado"
+    },
+    {
+      "id": "fu-slide-4",
+      "titulo": "Mecánica Agrícola",
+      "texto": "Operación, mantenimiento y reparación de maquinaria agrícola y pesada",
+      "boton": "Conocer el programa",
+      "enlace": "#/programas/mecanica-agricola",
+      "imagen": "/assets/fu/programa-mecanica-agricola.jpg",
+      "orden": 4,
       "estado": "Publicado"
     }
   ],
@@ -397,7 +437,7 @@
       "clave": "presentacion",
       "titulo": "Presentación",
       "slug": "presentacion",
-      "contenido": "<h2>Bienvenidos al IESTP Federico Uranga</h2><p>Mensaje de la Dirección por completar.</p>",
+      "contenido": "<p>El Instituto de Educación Superior Tecnológico Público “Federico Uranga”, ubicado en el distrito de Independencia, provincia de Pisco, región Ica, brinda el servicio educativo de educación superior tecnológica en los programas de estudios oficialmente autorizados o licenciados que correspondan.</p><p>Su finalidad es formar profesionales técnicos competentes, éticos, innovadores y vinculados con las necesidades del sector productivo y laboral de la región.</p><p>Nuestra gestión institucional, académica y administrativa se organiza para garantizar los procesos de admisión, matrícula, formación, evaluación, experiencias formativas en situaciones reales de trabajo, certificación, titulación, bienestar, empleabilidad, convivencia y mejora continua, respetando los derechos y deberes de toda la comunidad educativa.</p>",
       "imagen": null,
       "mensaje": "",
       "estado": "Publicada",
@@ -405,14 +445,14 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-resena",
       "clave": "resena",
       "titulo": "Reseña Histórica",
       "slug": "resena-historica",
-      "contenido": "<p>Reseña histórica por completar.</p>",
+      "contenido": "<p>Durante el Gobierno Regional Libertadores Wari, mediante la R.L.R. N.º 007-91-GLW (1991), se crea el Instituto con la intención de atender la demanda de la región, ofertando las carreras profesionales de Industrias Alimentarias, Mecánica Agrícola y Secretariado Ejecutivo.</p><p>Las actividades académicas se inician en junio de 1992, siendo su primera directora la señora Carmen Paredes Atunga, quien, con un grupo de docentes y el apoyo de la Dirección Departamental de Educación de Ica, gestionó el inicio de las actividades académicas aun sin contar con el presupuesto correspondiente. Esto constituyó un riesgo para ese grupo de pioneros, quienes finalmente recibían sus honorarios con recursos propios de la Dirección Departamental de Educación de Ica y con remanentes de otras instituciones.</p><p>Mediante la R.M. N.º 0564-94-ED, el Ministerio de Educación reconoce los estudios realizados y los que estaban por concluir hasta ese entonces. A inicios de 1996 se suspenden las actividades y en 1998 se reabre la institución, habiendo obtenido cinco plazas orgánicas presupuestadas para docentes de 40 horas, una plaza orgánica presupuestada para personal administrativo y otra para personal de servicio.</p><p>El 22 de enero de 2007 la institución logra su revalidación mediante la R.D. N.º 0035-2007-ED. Desde entonces trabaja con su presupuesto analítico para sus tres programas de estudio, dos de los cuales se actualizaron en 2022: Asistencia Administrativa e Industrias de Alimentos y Bebidas. El programa de Mecánica Agrícola se encuentra en proceso de actualización.</p><h2>Local institucional</h2><p>La nueva edificación, de aproximadamente 780 m² sobre un terreno propio de 3680.40 m², se encuentra en construcción. Se prevé contar con esta moderna infraestructura a partir de 2027.</p>",
       "imagen": null,
       "mensaje": "",
       "estado": "Publicada",
@@ -420,14 +460,14 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-mision",
       "clave": "mision",
       "titulo": "Misión, Visión y Valores",
       "slug": "mision-vision",
-      "contenido": "<h2>Misión</h2><p>Por completar.</p><h2>Visión</h2><p>Por completar.</p><h2>Valores</h2><p>Por completar.</p>",
+      "contenido": "<h2>Misión</h2><p>El IESTP “Federico Uranga” forma profesionales técnicos competentes, innovadores y emprendedores, con una sólida base técnica, científica y humanística, capaces de contribuir al desarrollo sostenible de la sociedad. Asimismo, promueve valores éticos, el respeto por la identidad cultural y el medio ambiente, fomentando la investigación y la innovación.</p><h2>Visión</h2><p>El IESTP “Federico Uranga” es líder en formación técnica de calidad, con programas acreditados y alta inserción laboral de sus egresados, comprometidos con el desarrollo sostenible y la innovación; destaca por su excelencia académica, la práctica de valores y su contribución al progreso de la región y del país.</p><h2>Valores</h2><h3>Responsabilidad</h3><p>Cumplimos con compromiso nuestras funciones y obligaciones académicas, laborales y sociales.</p><h3>Respeto</h3><p>Valoramos la dignidad, la diversidad y la identidad cultural de cada integrante de la comunidad educativa.</p><h3>Honestidad</h3><p>Actuamos con transparencia y veracidad en la gestión institucional y en el proceso formativo.</p><h3>Emprendimiento</h3><p>Promovemos la iniciativa, la creatividad y la innovación para generar oportunidades de desarrollo.</p><h3>Solidaridad</h3><p>Trabajamos en equipo y apoyamos a nuestra comunidad, con responsabilidad social y ambiental.</p>",
       "imagen": null,
       "mensaje": "",
       "estado": "Publicada",
@@ -435,29 +475,29 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-organizacion",
       "clave": "organizacion",
       "titulo": "Organización Institucional",
       "slug": "organizacion",
-      "contenido": "<p>Organigrama y estructura institucional por completar.</p>",
-      "imagen": null,
+      "contenido": "<p>La organización del IESTP “Federico Uranga” está encabezada por la Dirección General, que cuenta con el Consejo Directivo, el Consejo Consultivo y el Consejo Institucional como órganos de apoyo.</p><p>Dependen de la Dirección General la Unidad Administrativa (con el Comité de Riesgos y Desastres, la Jefatura de Producción y el personal de servicio), la Unidad Académica (con las coordinaciones de los programas de estudio, los docentes y los estudiantes), la Secretaría Académica (seguimiento de egresados y titulación) y la Jefatura de Investigación e Innovación (actividades curriculares e imagen institucional).</p>",
+      "imagen": "/assets/fu/organigrama.png",
       "mensaje": "",
       "estado": "Publicada",
       "versiones": [],
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-reconocimientos",
       "clave": "reconocimientos",
       "titulo": "Reconocimientos",
       "slug": "reconocimientos",
-      "contenido": "<p>Reconocimientos por completar.</p>",
+      "contenido": "<p>El IESTP “Federico Uranga” publicará en esta sección los reconocimientos, distinciones y logros obtenidos por la institución, sus docentes y estudiantes.</p>",
       "imagen": null,
       "mensaje": "",
       "estado": "Publicada",
@@ -465,29 +505,29 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-jerarquica",
       "clave": "jerarquica",
       "titulo": "Plana Jerárquica",
       "slug": "plana-jerarquica",
-      "contenido": "<p>Plana jerárquica del IESTP Federico Uranga.</p>",
+      "contenido": "<p>Equipo directivo y jefaturas del IESTP “Federico Uranga”.</p>",
       "imagen": null,
-      "mensaje": "",
+      "mensaje": "Les damos la bienvenida al IESTP “Federico Uranga”. Trabajamos para formar profesionales técnicos competentes, éticos e innovadores, comprometidos con el desarrollo de Independencia, Pisco y la región Ica.",
       "estado": "Publicada",
       "versiones": [],
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-docentes",
       "clave": "docentes",
       "titulo": "Plana Docente",
       "slug": "plana-docente",
-      "contenido": "<p>Plana docente del IESTP Federico Uranga.</p>",
+      "contenido": "<p>Docentes del IESTP “Federico Uranga” que tienen a su cargo las unidades didácticas del periodo académico vigente.</p>",
       "imagen": null,
       "mensaje": "",
       "estado": "Publicada",
@@ -495,14 +535,14 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-campus",
       "clave": "campus",
       "titulo": "Campus e Informes",
       "slug": "campus-e-informes",
-      "contenido": "<p>Información del campus e informes por completar.</p>",
+      "contenido": "<p>Nuestra sede principal se ubica en la Av. San Martín N.º 300, sector Manrique, distrito de Independencia, provincia de Pisco, región Ica.</p><p>Horario de atención: lunes a viernes, de 01:00 p. m. a 06:30 p. m.</p><p>Correo: istpfedericouranga@gmail.com</p><p>La nueva infraestructura institucional, de aproximadamente 780 m² sobre un terreno propio de 3680.40 m², se encuentra en construcción.</p>",
       "imagen": null,
       "mensaje": "",
       "estado": "Publicada",
@@ -510,7 +550,7 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-privacidad",
@@ -525,7 +565,7 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-terminos",
@@ -540,14 +580,14 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-faq",
       "clave": "faq",
       "titulo": "Preguntas Frecuentes",
       "slug": "preguntas-frecuentes",
-      "contenido": "<h2>¿Dónde está el instituto?</h2><p>Por completar.</p><h2>¿Cuánto duran los programas?</h2><p>Por completar.</p><h2>¿Dónde consulto admisión y matrícula?</h2><p>En las secciones Admisión y Matrícula de este portal.</p>",
+      "contenido": "<h2>¿Dónde está el instituto?</h2><p>Av. San Martín N.º 300, sector Manrique, Independencia, Pisco, Ica.</p><h2>¿Qué programas de estudio ofrece?</h2><p>Asistencia Administrativa, Industrias de Alimentos y Bebidas y Mecánica Agrícola.</p><h2>¿Cuánto duran los programas?</h2><p>Tres años (seis semestres académicos), en modalidad presencial. Al concluir se obtiene el título de Profesional Técnico a nombre de la Nación.</p><h2>¿Cuáles son las modalidades de admisión?</h2><p>Ordinaria, por exoneración y por ingreso extraordinario. Consulta la sección Admisión.</p><h2>¿Cuál es el horario de atención?</h2><p>Lunes a viernes, de 01:00 p. m. a 06:30 p. m. También puedes escribir a istpfedericouranga@gmail.com o usar la Mesa de Partes Virtual.</p>",
       "imagen": null,
       "mensaje": "",
       "estado": "Publicada",
@@ -555,14 +595,14 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "pg-fu-inversiones",
       "clave": "inversiones",
       "titulo": "Inversiones y Recursos Económicos",
       "slug": "inversiones",
-      "contenido": "<p>Inversiones, donaciones y obras de infraestructura por completar.</p>",
+      "contenido": "<h2>Obras de infraestructura</h2><p>Construcción de la nueva infraestructura institucional: edificación de aproximadamente 780 m² sobre terreno propio de 3680.40 m², en el distrito de Independencia, Pisco. Estado: en ejecución. Se prevé su uso a partir de 2027.</p><h2>Inversiones y reinversiones</h2><p>La información sobre inversiones, reinversiones y donaciones se publicará en esta sección conforme se registre.</p>",
       "imagen": null,
       "mensaje": "",
       "estado": "Publicada",
@@ -570,13 +610,821 @@
       "creadoPor": "importacion-fu",
       "creadoEn": "2026-11-02T00:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     }
   ],
   "reconocimientos": [],
-  "programas": [],
-  "personas": [],
-  "jerarquica": [],
+  "programas": [
+    {
+      "id": "aa",
+      "orden": 1,
+      "nombre": "Asistencia Administrativa",
+      "slug": "asistencia-administrativa",
+      "icono": "briefcase",
+      "codigo": "M2982-3-004",
+      "resumen": "Profesional técnico competente para programar, organizar y controlar las actividades administrativas y eventos, y administrar recursos humanos, materiales y financieros de las organizaciones.",
+      "imagen": "/assets/fu/programa-asistencia-administrativa.jpg",
+      "duracion": "3 años (6 semestres)",
+      "modalidad": "Presencial",
+      "turno": "Tarde",
+      "horario": "Lunes a viernes, de 01:15 p. m. a 06:00 p. m.",
+      "titulo": "Profesional Técnico en Asistencia Administrativa",
+      "perfil": "<p>El profesional técnico en Asistencia Administrativa es competente para programar, organizar y controlar el cumplimiento de las actividades administrativas y eventos, además de administrar recursos humanos, materiales, financieros, entre otros, y la documentación según la normativa vigente, las políticas y los procedimientos de la organización.</p><p>Se comunica de manera asertiva, utiliza el idioma inglés, maneja las tecnologías de la información, es innovador y ético en su accionar, resolviendo problemas laborales y de su entorno, demostrando liderazgo, emprendimiento y compromiso con el cuidado ambiental.</p><p><strong>Sector económico:</strong> actividades profesionales, científicas y técnicas. <strong>Familia productiva:</strong> servicios prestados a empresas. <strong>Nivel formativo:</strong> profesional técnico. <strong>Plan de estudios:</strong> 3264 horas y 125 créditos (actualizado en 2022).</p>",
+      "campo": "Oficinas administrativas de entidades públicas y privadas.",
+      "campoItems": [
+        "Oficinas administrativas de entidades públicas y privadas.",
+        "Secretarías, recepción y atención al usuario.",
+        "Áreas de trámite documentario y archivo.",
+        "Organización de eventos y relaciones públicas.",
+        "Áreas de logística y abastecimiento.",
+        "Emprendimiento de servicios administrativos propios."
+      ],
+      "coordinadorId": null,
+      "coordinadorMsg": "",
+      "brochure": null,
+      "malla": {
+        "nombre": "itinerario-asistencia-administrativa.png",
+        "original": "itinerario-asistencia-administrativa.png",
+        "url": "/assets/fu/itinerario-asistencia-administrativa.png",
+        "type": "image/png",
+        "size": 30910,
+        "fuente": "Oficio N.º 105-2026-IESTP\"FU\"-MFGQ/D"
+      },
+      "docVersiones": [],
+      "convenios": [],
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "modulos": [
+        {
+          "id": "aa-m1",
+          "codigo": "MP01",
+          "nombre": "Organización y administración documentaria",
+          "efsrt": "Las experiencias formativas en situaciones reales de trabajo (EFSRT) se desarrollan en cada módulo, según el itinerario formativo.",
+          "uds": [
+            {
+              "id": "aa-m1-u1",
+              "semestre": "I",
+              "nombre": "Organización de la Agenda",
+              "creditos": 2,
+              "horas": 48
+            },
+            {
+              "id": "aa-m1-u2",
+              "semestre": "I",
+              "nombre": "Redacción de Documentos Administrativos",
+              "creditos": 3,
+              "horas": 80
+            },
+            {
+              "id": "aa-m1-u3",
+              "semestre": "I",
+              "nombre": "Trámite Documentario",
+              "creditos": 2,
+              "horas": 48
+            },
+            {
+              "id": "aa-m1-u4",
+              "semestre": "I",
+              "nombre": "Procesador de Textos Administrativos",
+              "creditos": 3,
+              "horas": 80
+            },
+            {
+              "id": "aa-m1-u5",
+              "semestre": "I",
+              "nombre": "Fundamentos de la Administración",
+              "creditos": 2,
+              "horas": 48
+            },
+            {
+              "id": "aa-m1-u6",
+              "semestre": "I",
+              "nombre": "Técnicas de Digitación",
+              "creditos": 3,
+              "horas": 80
+            },
+            {
+              "id": "aa-m1-u7",
+              "semestre": "I",
+              "nombre": "Comunicación Oral",
+              "creditos": 2,
+              "horas": 48
+            },
+            {
+              "id": "aa-m1-u8",
+              "semestre": "I",
+              "nombre": "Aplicaciones de Internet",
+              "creditos": 2,
+              "horas": 48
+            },
+            {
+              "id": "aa-m1-u9",
+              "semestre": "II",
+              "nombre": "Organización de la Información",
+              "creditos": 3,
+              "horas": 80
+            },
+            {
+              "id": "aa-m1-u10",
+              "semestre": "II",
+              "nombre": "Producción de Documentos Empresariales",
+              "creditos": 3,
+              "horas": 80
+            },
+            {
+              "id": "aa-m1-u11",
+              "semestre": "II",
+              "nombre": "Gestión de Documentos Comerciales",
+              "creditos": 2,
+              "horas": 48
+            },
+            {
+              "id": "aa-m1-u12",
+              "semestre": "II",
+              "nombre": "Calidad de Atención al Usuario",
+              "creditos": 2,
+              "horas": 48
+            },
+            {
+              "id": "aa-m1-u13",
+              "semestre": "II",
+              "nombre": "Hoja de Cálculo Administrativa",
+              "creditos": 3,
+              "horas": 80
+            },
+            {
+              "id": "aa-m1-u14",
+              "semestre": "II",
+              "nombre": "Planificación y Organización de Oficina",
+              "creditos": 2,
+              "horas": 48
+            },
+            {
+              "id": "aa-m1-u15",
+              "semestre": "II",
+              "nombre": "Interpretación y Producción de Textos",
+              "creditos": 2,
+              "horas": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iab",
+      "orden": 2,
+      "nombre": "Industrias de Alimentos y Bebidas",
+      "slug": "industrias-de-alimentos-y-bebidas",
+      "icono": "leaf",
+      "codigo": "IAB",
+      "resumen": "Profesional técnico que planifica, ejecuta y controla procesos de transformación, conservación y envasado de alimentos y bebidas, aplicando normas de calidad, inocuidad y seguridad.",
+      "imagen": "/assets/fu/programa-industrias-alimentos-bebidas.jpg",
+      "duracion": "3 años (6 semestres)",
+      "modalidad": "Presencial",
+      "turno": "Tarde",
+      "horario": "Lunes a viernes, de 01:15 p. m. a 06:00 p. m.",
+      "titulo": "Profesional Técnico en Industrias de Alimentos y Bebidas",
+      "perfil": "<p>El profesional técnico en Industrias de Alimentos y Bebidas planifica, organiza, ejecuta y controla los procesos de recepción, transformación, conservación, envasado y almacenamiento de alimentos y bebidas, aplicando buenas prácticas de manufactura, normas de calidad, inocuidad y seguridad industrial.</p><p>Aprovecha la producción agrícola de la región para generar productos con valor agregado, maneja equipos de planta, realiza controles de calidad y desarrolla emprendimientos agroindustriales con responsabilidad ambiental.</p><p><strong>Plan de estudios:</strong> actualizado en 2022.</p>",
+      "campo": "Plantas agroindustriales y de procesamiento de alimentos.",
+      "campoItems": [
+        "Plantas agroindustriales y de procesamiento de alimentos.",
+        "Bodegas, vitivinícolas y plantas de bebidas.",
+        "Áreas de control de calidad e inocuidad alimentaria.",
+        "Empresas agroexportadoras de la región.",
+        "Emprendimientos propios de transformación de alimentos."
+      ],
+      "coordinadorId": null,
+      "coordinadorMsg": "",
+      "brochure": null,
+      "malla": null,
+      "docVersiones": [],
+      "convenios": [],
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "modulos": []
+    },
+    {
+      "id": "ma",
+      "orden": 3,
+      "nombre": "Mecánica Agrícola",
+      "slug": "mecanica-agricola",
+      "icono": "settings",
+      "codigo": "MA",
+      "resumen": "Profesional técnico orientado a la operación, mantenimiento y reparación de máquinas e implementos agrícolas y de los componentes de la maquinaria pesada.",
+      "imagen": "/assets/fu/programa-mecanica-agricola.jpg",
+      "duracion": "3 años (6 semestres)",
+      "modalidad": "Presencial",
+      "turno": "Tarde",
+      "horario": "Lunes a viernes, de 01:15 p. m. a 06:00 p. m.",
+      "titulo": "Profesional Técnico en Mecánica Agrícola",
+      "perfil": "<p>El programa de estudios de Mecánica Agrícola responde a las necesidades del poblador de la zona, constituida mayoritariamente por agricultores que, para aliviar el esfuerzo físico en las labores de campo, recurren al uso de maquinaria. Por ello, la formación del profesional técnico se orienta a la operación, mantenimiento y reparación de máquinas e implementos agrícolas, así como a la planificación, organización y desarrollo de tareas de mantenimiento, incluidos sus presupuestos.</p><h3>Competencia general</h3><p>Planificar, organizar, diagnosticar, ejecutar y supervisar el mantenimiento de las máquinas e implementos agrícolas, circuitos eléctricos, electrónicos y de los componentes de la maquinaria pesada, así como diseñar, construir y adaptar máquinas y herramientas agrícolas y agroindustriales empleando las normas de seguridad y calidad establecidas.</p><h3>Capacidades técnico-transformadoras</h3><ul><li>Diseñar e interpretar planos de máquinas y herramientas agrícolas y agroindustriales.</li><li>Fabricar máquinas y herramientas agrícolas y agroindustriales, haciendo uso de máquinas y herramientas de taller y otros procesos de producción.</li><li>Diagnosticar y ejecutar el mantenimiento de motores de combustión interna diésel.</li><li>Realizar el diagnóstico y mantenimiento de los sistemas de transmisión de fuerza de la maquinaria agrícola.</li><li>Diagnosticar y ejecutar el mantenimiento de los implementos agrícolas.</li><li>Diagnosticar e instalar circuitos eléctricos y electrónicos de las máquinas agrícolas y pesadas.</li><li>Realizar el mantenimiento de los componentes de la maquinaria pesada.</li></ul><h3>Capacidades de organización</h3><ul><li>Dirigir y supervisar al personal a su cargo, con un correcto manejo de tareas, calidad y tiempo, manteniendo un adecuado clima laboral.</li><li>Elaborar programas de mantenimiento de acuerdo con las características operativas de las unidades.</li><li>Elaborar presupuestos de diseño y construcción de máquinas y herramientas, considerando la oferta y demanda del mercado.</li><li>Ejecutar actividades de gestión empresarial.</li></ul><h3>Capacidades de cooperación y comunicación</h3><ul><li>Trabajar en equipo para el logro de objetivos y metas.</li><li>Mantener relaciones cordiales con el personal de su entorno.</li><li>Cooperar en la superación de dificultades durante la ejecución de los trabajos.</li><li>Dirigir y capacitar al personal a su cargo.</li></ul><h3>Responsabilidad y autonomía</h3><ul><li>Organizar y distribuir los trabajos y tareas.</li><li>Tomar decisiones asertivas en situaciones no previstas.</li><li>Aplicar las normas de seguridad e higiene industrial.</li><li>Informar oportunamente las actividades ejecutadas en el taller.</li></ul><h3>Situación actual</h3><p>Se trabaja en la actualización del plan de estudios, orientada al Mantenimiento de Maquinaria Pesada. El itinerario vigente suma 3240 horas y 134 créditos (2430 horas y 101 créditos en módulos técnico-profesionales; 810 horas y 33 créditos en módulos transversales).</p>",
+      "campo": "Talleres de mantenimiento de maquinaria agrícola y pesada.",
+      "campoItems": [
+        "Talleres de mantenimiento de maquinaria agrícola y pesada.",
+        "Empresas agrícolas y agroindustriales del valle de Pisco.",
+        "Concesionarios y distribuidores de maquinaria e implementos.",
+        "Fabricación y adaptación de herramientas agrícolas.",
+        "Emprendimiento de servicios de mecánica agrícola."
+      ],
+      "coordinadorId": null,
+      "coordinadorMsg": "",
+      "brochure": null,
+      "malla": null,
+      "docVersiones": [],
+      "convenios": [],
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "modulos": [
+        {
+          "id": "ma-m1",
+          "codigo": "MP01",
+          "nombre": "Diseño, construcción y adaptación de máquinas y herramientas agrícolas y agroindustriales",
+          "efsrt": "Las experiencias formativas en situaciones reales de trabajo (EFSRT) se desarrollan en cada módulo, según el itinerario formativo.",
+          "uds": [
+            {
+              "id": "ma-m1-u1",
+              "semestre": "I",
+              "nombre": "Dibujo de Planos",
+              "creditos": 4,
+              "horas": 90
+            },
+            {
+              "id": "ma-m1-u2",
+              "semestre": "I",
+              "nombre": "Tecnología de Materiales",
+              "creditos": 4,
+              "horas": 90
+            },
+            {
+              "id": "ma-m1-u3",
+              "semestre": "I",
+              "nombre": "Mecánica de Taller",
+              "creditos": 3,
+              "horas": 72
+            },
+            {
+              "id": "ma-m1-u4",
+              "semestre": "I",
+              "nombre": "Diseño de Máquinas",
+              "creditos": 2,
+              "horas": 54
+            },
+            {
+              "id": "ma-m1-u5",
+              "semestre": "I",
+              "nombre": "Construcción y Ensamblaje de Máquinas",
+              "creditos": 4,
+              "horas": 90
+            }
+          ]
+        },
+        {
+          "id": "ma-m2",
+          "codigo": "MP02",
+          "nombre": "Mantenimiento de los sistemas eléctricos y electrónicos en la maquinaria agrícola y pesada",
+          "efsrt": "Las experiencias formativas en situaciones reales de trabajo (EFSRT) se desarrollan en cada módulo, según el itinerario formativo.",
+          "uds": [
+            {
+              "id": "ma-m2-u1",
+              "semestre": "II",
+              "nombre": "Fundamentos Eléctricos y Electrónicos",
+              "creditos": 2,
+              "horas": 54
+            },
+            {
+              "id": "ma-m2-u2",
+              "semestre": "II",
+              "nombre": "Instrumentos de Mediciones Eléctricas y Electrónicas",
+              "creditos": 2,
+              "horas": 54
+            },
+            {
+              "id": "ma-m2-u3",
+              "semestre": "II",
+              "nombre": "Sistemas de Carga y Arranque",
+              "creditos": 4,
+              "horas": 108
+            },
+            {
+              "id": "ma-m2-u4",
+              "semestre": "II",
+              "nombre": "Sistema de Luces y Controles Auxiliares Electrónicos",
+              "creditos": 4,
+              "horas": 90
+            },
+            {
+              "id": "ma-m2-u5",
+              "semestre": "II",
+              "nombre": "Sistema de Encendido Convencional y Electrónico",
+              "creditos": 2,
+              "horas": 54
+            }
+          ]
+        },
+        {
+          "id": "ma-m3",
+          "codigo": "MP03",
+          "nombre": "Mantenimiento de máquinas e implementos agrícolas",
+          "efsrt": "Las experiencias formativas en situaciones reales de trabajo (EFSRT) se desarrollan en cada módulo, según el itinerario formativo.",
+          "uds": [
+            {
+              "id": "ma-m3-u1",
+              "semestre": "III",
+              "nombre": "Motores de Combustión Interna Diésel",
+              "creditos": 10,
+              "horas": 234
+            },
+            {
+              "id": "ma-m3-u2",
+              "semestre": "III",
+              "nombre": "Sistema de Inyección Diésel",
+              "creditos": 3,
+              "horas": 72
+            },
+            {
+              "id": "ma-m3-u3",
+              "semestre": "III",
+              "nombre": "Sistemas Auxiliares y Complementarios de las Máquinas Agrícolas",
+              "creditos": 4,
+              "horas": 90
+            },
+            {
+              "id": "ma-m3-u4",
+              "semestre": "IV",
+              "nombre": "Sistema de Transmisión",
+              "creditos": 4,
+              "horas": 108
+            },
+            {
+              "id": "ma-m3-u5",
+              "semestre": "IV",
+              "nombre": "Operación de Tractores de Ruedas",
+              "creditos": 4,
+              "horas": 90
+            },
+            {
+              "id": "ma-m3-u6",
+              "semestre": "IV",
+              "nombre": "Máquinas e Implementos Agrícolas",
+              "creditos": 10,
+              "horas": 234
+            }
+          ]
+        },
+        {
+          "id": "ma-m4",
+          "codigo": "MP04",
+          "nombre": "Mantenimiento de componentes de la maquinaria pesada",
+          "efsrt": "Las experiencias formativas en situaciones reales de trabajo (EFSRT) se desarrollan en cada módulo, según el itinerario formativo.",
+          "uds": [
+            {
+              "id": "ma-m4-u1",
+              "semestre": "V",
+              "nombre": "Hidrostática",
+              "creditos": 4,
+              "horas": 108
+            },
+            {
+              "id": "ma-m4-u2",
+              "semestre": "V",
+              "nombre": "Convertidores de Torsión",
+              "creditos": 4,
+              "horas": 108
+            },
+            {
+              "id": "ma-m4-u3",
+              "semestre": "V",
+              "nombre": "Transmisiones Hidráulicas I",
+              "creditos": 8,
+              "horas": 180
+            },
+            {
+              "id": "ma-m4-u4",
+              "semestre": "V",
+              "nombre": "Análisis de Información Técnica",
+              "creditos": 1,
+              "horas": 36
+            },
+            {
+              "id": "ma-m4-u5",
+              "semestre": "VI",
+              "nombre": "Transmisiones Hidráulicas II",
+              "creditos": 8,
+              "horas": 180
+            },
+            {
+              "id": "ma-m4-u6",
+              "semestre": "VI",
+              "nombre": "Sistema de Rodamientos por Cadena y por Neumáticos",
+              "creditos": 6,
+              "horas": 144
+            },
+            {
+              "id": "ma-m4-u7",
+              "semestre": "VI",
+              "nombre": "Mandos Finales",
+              "creditos": 4,
+              "horas": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "personas": [
+    {
+      "id": "fu-persona-dir",
+      "nombres": "Mario Freddy",
+      "apellidos": "Guerra Quispe",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Administrativo",
+      "condicion": "",
+      "especialidad": "Dirección General",
+      "titulo": "Mag.",
+      "programas": [],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 0,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "GUERRA QUISPE, MARIO FREDDY"
+    },
+    {
+      "id": "fu-persona-1",
+      "nombres": "Keyla",
+      "apellidos": "Macedo",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Docente",
+      "condicion": "",
+      "especialidad": "Docente de Asistencia Administrativa",
+      "titulo": "Prof.",
+      "programas": [
+        "aa"
+      ],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 1,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "MACEDO, KEYLA"
+    },
+    {
+      "id": "fu-persona-2",
+      "nombres": "Maribel",
+      "apellidos": "Ventura",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Docente",
+      "condicion": "",
+      "especialidad": "Docente de Asistencia Administrativa",
+      "titulo": "Prof.",
+      "programas": [
+        "aa"
+      ],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 2,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "VENTURA, MARIBEL"
+    },
+    {
+      "id": "fu-persona-3",
+      "nombres": "Milagros",
+      "apellidos": "Castilla",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Docente",
+      "condicion": "",
+      "especialidad": "Docente de Asistencia Administrativa",
+      "titulo": "Prof.",
+      "programas": [
+        "aa"
+      ],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 3,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "CASTILLA, MILAGROS"
+    },
+    {
+      "id": "fu-persona-4",
+      "nombres": "Jackeline",
+      "apellidos": "Robles",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Docente",
+      "condicion": "",
+      "especialidad": "Docente de Asistencia Administrativa",
+      "titulo": "Prof.",
+      "programas": [
+        "aa"
+      ],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 4,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "ROBLES, JACKELINE"
+    },
+    {
+      "id": "fu-persona-5",
+      "nombres": "Karen",
+      "apellidos": "La Rosa",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Docente",
+      "condicion": "",
+      "especialidad": "Docente de Asistencia Administrativa",
+      "titulo": "Prof.",
+      "programas": [
+        "aa"
+      ],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 5,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "LA ROSA, KAREN"
+    },
+    {
+      "id": "fu-persona-6",
+      "nombres": "Reydi",
+      "apellidos": "Casavilca",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Docente",
+      "condicion": "",
+      "especialidad": "Docente de Asistencia Administrativa",
+      "titulo": "Prof.",
+      "programas": [
+        "aa"
+      ],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 6,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "CASAVILCA, REYDI"
+    },
+    {
+      "id": "fu-persona-7",
+      "nombres": "Frida",
+      "apellidos": "Tomayro",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Docente",
+      "condicion": "",
+      "especialidad": "Docente de Asistencia Administrativa",
+      "titulo": "Prof.",
+      "programas": [
+        "aa"
+      ],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 7,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "TOMAYRO, FRIDA"
+    },
+    {
+      "id": "fu-persona-8",
+      "nombres": "Rosa",
+      "apellidos": "Tipacti",
+      "fem": null,
+      "correo": "",
+      "telefono": "",
+      "foto": null,
+      "tipo": "Docente",
+      "condicion": "",
+      "especialidad": "Docente de Asistencia Administrativa",
+      "titulo": "Prof.",
+      "programas": [
+        "aa"
+      ],
+      "empleabilidad": false,
+      "uds": [],
+      "academica": [],
+      "experiencia": [],
+      "otros": [],
+      "orden": 8,
+      "estado": "Publicado",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00",
+      "cv": {
+        "autoriza": {
+          "ok": false
+        }
+      },
+      "dni": "",
+      "nombrePublicado": "TIPACTI, ROSA"
+    }
+  ],
+  "jerarquica": [
+    {
+      "id": "fu-jer-1",
+      "personaId": "fu-persona-dir",
+      "cargo": "Director General",
+      "unidad": "DIRECCIÓN GENERAL",
+      "orden": 1,
+      "esDirector": true,
+      "estado": "Publicado",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00"
+    },
+    {
+      "id": "fu-jer-2",
+      "personaId": null,
+      "cargo": "Jefe de Unidad Administrativa",
+      "unidad": "UNIDAD ADMINISTRATIVA",
+      "orden": 2,
+      "esDirector": false,
+      "estado": "Publicado",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00"
+    },
+    {
+      "id": "fu-jer-3",
+      "personaId": null,
+      "cargo": "Jefe de Unidad Académica",
+      "unidad": "UNIDAD ACADÉMICA",
+      "orden": 3,
+      "esDirector": false,
+      "estado": "Publicado",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00"
+    },
+    {
+      "id": "fu-jer-4",
+      "personaId": null,
+      "cargo": "Secretario(a) Académico(a)",
+      "unidad": "SECRETARÍA ACADÉMICA",
+      "orden": 4,
+      "esDirector": false,
+      "estado": "Publicado",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00"
+    },
+    {
+      "id": "fu-jer-5",
+      "personaId": null,
+      "cargo": "Jefe de Investigación e Innovación",
+      "unidad": "INVESTIGACIÓN E INNOVACIÓN",
+      "orden": 5,
+      "esDirector": false,
+      "estado": "Publicado",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00"
+    }
+  ],
   "egresados": [],
   "categoriasNoticia": [
     {
@@ -587,7 +1435,82 @@
       "estado": "Activo"
     }
   ],
-  "noticias": [],
+  "noticias": [
+    {
+      "id": "fu-noticia-1",
+      "titulo": "Avanza la construcción de la nueva infraestructura del IESTP Federico Uranga",
+      "slug": "avanza-la-construccion-de-la-nueva-infraestructura",
+      "categoriaId": "fu-noticias",
+      "fecha": "2026-09-23T12:00:00-05:00",
+      "resumen": "La nueva edificación, de aproximadamente 780 m² sobre un terreno propio de 3680.40 m², permitirá contar con una moderna infraestructura a partir de 2027.",
+      "contenido": "<p>La nueva infraestructura del Instituto de Educación Superior Tecnológico Público “Federico Uranga”, en el distrito de Independencia, Pisco, continúa en construcción. Se trata de una edificación de aproximadamente 780 m² levantada sobre un terreno propio de 3680.40 m².</p><p>Durante 2025 las actividades académicas se realizaron de manera virtual. En el presente año la institución retorna paulatinamente a la presencialidad y, a partir de 2027, prevé desarrollar sus actividades en esta moderna infraestructura, en beneficio de los estudiantes de Asistencia Administrativa, Industrias de Alimentos y Bebidas y Mecánica Agrícola.</p>",
+      "imagen": "/assets/fu/fachada-construccion-1.jpg",
+      "video": "",
+      "adjuntos": [
+        {
+          "nombre": "fachada-construccion-2.jpg",
+          "original": "fachada-construccion-2.jpg",
+          "url": "/assets/fu/fachada-construccion-2.jpg",
+          "type": "image/jpeg",
+          "size": 92844,
+          "fuente": "Oficio N.º 105-2026-IESTP\"FU\"-MFGQ/D"
+        },
+        {
+          "nombre": "infraestructura-aerea.jpg",
+          "original": "infraestructura-aerea.jpg",
+          "url": "/assets/fu/infraestructura-aerea.jpg",
+          "type": "image/jpeg",
+          "size": 154336,
+          "fuente": "Oficio N.º 105-2026-IESTP\"FU\"-MFGQ/D"
+        },
+        {
+          "nombre": "infraestructura-nueva.jpg",
+          "original": "infraestructura-nueva.jpg",
+          "url": "/assets/fu/infraestructura-nueva.jpg",
+          "type": "image/jpeg",
+          "size": 197389,
+          "fuente": "Oficio N.º 105-2026-IESTP\"FU\"-MFGQ/D"
+        }
+      ],
+      "destacada": true,
+      "estado": "Publicada",
+      "autor": "IESTP Federico Uranga",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00"
+    },
+    {
+      "id": "fu-noticia-2",
+      "titulo": "Horario de clases 2026-II del programa de Asistencia Administrativa",
+      "slug": "horario-de-clases-2026-ii-asistencia-administrativa",
+      "categoriaId": "fu-noticias",
+      "fecha": "2026-09-23T12:00:00-05:00",
+      "resumen": "Se publica el horario de clases del periodo académico 2026-II para los semestres II, IV y VI del programa de estudios de Asistencia Administrativa.",
+      "contenido": "<p>Se comunica a los estudiantes del programa de estudios de Asistencia Administrativa el horario de clases del periodo académico 2026-II, correspondiente a los semestres II, IV y VI.</p><p>Las clases se desarrollan de lunes a viernes, de 01:15 p. m. a 06:00 p. m., con receso de 03:30 p. m. a 03:45 p. m. Descarga el horario completo en el archivo adjunto.</p>",
+      "imagen": "/assets/fu/horario-asistencia-administrativa-2026-II.png",
+      "video": "",
+      "adjuntos": [
+        {
+          "nombre": "horario-asistencia-administrativa-2026-II.png",
+          "original": "horario-asistencia-administrativa-2026-II.png",
+          "url": "/assets/fu/horario-asistencia-administrativa-2026-II.png",
+          "type": "image/png",
+          "size": 186335,
+          "fuente": "Oficio N.º 105-2026-IESTP\"FU\"-MFGQ/D"
+        }
+      ],
+      "destacada": false,
+      "estado": "Publicada",
+      "autor": "IESTP Federico Uranga",
+      "fuente": "institucional",
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00"
+    }
+  ],
   "eventos": [],
   "tiposDocumento": [
     {
@@ -633,20 +1556,93 @@
   "estadisticas": [],
   "licenciamiento": {
     "estado": "En proceso",
-    "etapa": "Por completar",
+    "etapa": "Rumbo al licenciamiento",
     "resolucion": "",
     "fechaResolucion": "",
     "vigenciaHasta": "",
-    "descripcion": "Por completar",
+    "descripcion": "El IESTP “Federico Uranga” se encuentra en camino al licenciamiento institucional ante el Ministerio de Educación. La institución fue revalidada mediante la R.D. N.º 0035-2007-ED, del 22 de enero de 2007, y actualizó en 2022 los planes de estudio de Asistencia Administrativa e Industrias de Alimentos y Bebidas.",
     "hitos": [],
     "documentos": [],
     "modPor": "importacion-fu",
-    "modEn": "2026-11-02T00:00:00-05:00"
+    "modEn": "2026-11-02T09:00:00-05:00"
   },
   "inversiones": [],
   "convocatorias": [],
-  "admisiones": [],
-  "matriculas": [],
+  "admisiones": [
+    {
+      "id": "fu-ad2027",
+      "anio": 2027,
+      "titulo": "Admisión 2027",
+      "subtitulo": "Modalidades, requisitos y vacantes del proceso de admisión",
+      "descripcion": "El proceso de admisión del IESTP “Federico Uranga” se realiza por tres modalidades: ordinaria, por exoneración y por ingreso extraordinario. Es planificado, organizado, ejecutado y evaluado por la Comisión Central de Admisión, presidida por el Director General. Las vacantes se cubren en estricto orden de mérito entre los postulantes que obtengan una nota aprobatoria mínima de once (11) en el examen de admisión, según el programa elegido al inscribirse. Las vacantes aprobadas y el cronograma se publicarán antes del inicio del proceso.",
+      "estado": "Publicado",
+      "vigente": true,
+      "prospecto": null,
+      "reglamento": null,
+      "resultados": {},
+      "historial": [],
+      "cronograma": [
+        {
+          "actividad": "Publicación de vacantes y cronograma",
+          "fecha": "Por anunciar"
+        },
+        {
+          "actividad": "Inscripción de postulantes",
+          "fecha": "Por anunciar"
+        },
+        {
+          "actividad": "Examen de admisión",
+          "fecha": "Por anunciar"
+        },
+        {
+          "actividad": "Publicación de resultados",
+          "fecha": "Por anunciar"
+        }
+      ],
+      "vacantes": {},
+      "requisitos": [
+        "Haber concluido la Educación Básica en cualquiera de sus modalidades.",
+        "Certificado de estudios de educación secundaria.",
+        "Copia simple del DNI, carné de extranjería o pasaporte.",
+        "Partida de nacimiento.",
+        "Dos fotografías tamaño carné.",
+        "Recibo de pago por derecho de inscripción.",
+        "Ficha de inscripción."
+      ],
+      "modalidades": [
+        {
+          "nombre": "Ordinaria",
+          "detalle": "Proceso de evaluación periódico que considera condiciones de calidad para cubrir las vacantes en orden de mérito."
+        },
+        {
+          "nombre": "Por exoneración",
+          "detalle": "Primer y segundo puesto de la Educación Básica del ámbito de la región Ica (5 % de la meta por programa); primeros puestos del programa de orientación y fortalecimiento del perfil de ingreso (10 %, cuando se implemente); deportistas calificados acreditados por el IPD de Ica y postulantes que cumplen servicio militar voluntario (uno por programa)."
+        },
+        {
+          "nombre": "Ingreso extraordinario",
+          "detalle": "Autorizado por el MINEDU para becas y programas. Garantiza el acceso de personas comprendidas en la Ley N.º 29973 (personas con discapacidad), Ley N.º 28592 (PIR), Ley N.º 29600, Ley N.º 30490, Ley N.º 29643 y demás normas aplicables."
+        }
+      ],
+      "creadoPor": "importacion-fu",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
+      "modPor": "importacion-fu",
+      "modEn": "2026-11-02T09:00:00-05:00"
+    }
+  ],
+  "matriculas": [
+    {
+      "id": "fu-mat2026ii",
+      "periodo": "2026-II",
+      "titulo": "Matrícula 2026-II",
+      "inicioClases": "",
+      "descripcion": "<p>La matrícula es el proceso mediante el cual un estudiante se registra en un programa de estudios del instituto, a través de las unidades didácticas de un periodo académico, lo que le acredita la condición de estudiante. Para matricularse, la persona debe haber sido admitida y acreditar la culminación de la Educación Básica.</p><ul><li>Pueden matricularse las personas ingresantes por concurso de admisión.</li><li>Los ingresantes que no se matriculen dentro del plazo son reemplazados por quienes siguen en el orden de mérito.</li><li>La ratificación de matrícula se realiza por unidades didácticas en cada periodo académico, hasta 30 días hábiles contados desde el inicio del periodo, para los estudiantes que aprobaron los aprendizajes previos exigidos.</li><li>Quienes no se matriculen en el periodo ordinario pueden acogerse al proceso extraordinario, con la tasa adicional establecida en el TUPA.</li><li>Una vez matriculado, al estudiante se le asigna su código y correo institucional.</li></ul><h3>Reserva de matrícula y licencia de estudios</h3><p>La matrícula puede reservarse antes del inicio del periodo académico, hasta por cuatro (4) periodos consecutivos. Los estudiantes pueden solicitar licencia de estudios hasta por cuatro (4) periodos consecutivos y reincorporarse antes o al término de la licencia. En ambos casos la institución emite una resolución directoral.</p>",
+      "estado": "Publicado",
+      "vigente": true,
+      "items": [],
+      "docTasas": null,
+      "cronograma": []
+    }
+  ],
   "tiposBeca": [
     {
       "id": "tb100",
@@ -671,117 +1667,101 @@
     {
       "id": "fu-local-principal",
       "nombre": "Sede principal",
-      "direccion": "Por completar — Independencia, Pisco, Ica",
+      "direccion": "Av. San Martín N.º 300, sector Manrique, Independencia, Pisco, Ica",
       "telefono": "",
-      "correo": "",
-      "horario": "Por completar",
+      "correo": "istpfedericouranga@gmail.com",
+      "horario": "Lunes a viernes, de 01:00 p. m. a 06:30 p. m.",
       "lat": null,
       "lng": null,
-      "foto": null,
+      "foto": "/assets/fu/infraestructura-nueva.jpg",
       "estado": "Publicado",
       "orden": 1,
       "creadoPor": "importacion-fu",
-      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     }
   ],
   "servicios": [
     {
       "id": "fu-servicio-1",
-      "nombre": "Servicio psicopedagógico",
-      "descripcion": "Por completar",
+      "nombre": "Mesa de Partes presencial",
+      "descripcion": "Recepción de solicitudes, documentos y trámites dirigidos a la institución. También puedes usar la Mesa de Partes Virtual de este portal.",
       "ubicacion": "Sede principal",
-      "horario": "Por completar",
-      "costo": "Consultar con la institución.",
+      "horario": "Lunes a viernes, de 01:00 p. m. a 06:30 p. m.",
+      "costo": "Según TUPA del trámite.",
       "responsable": "",
-      "icono": "heart",
+      "icono": "clipboard",
       "estado": "Publicado",
       "orden": 1,
       "creadoPor": "importacion-fu",
-      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "fu-servicio-2",
-      "nombre": "Servicio de bienestar",
-      "descripcion": "Por completar",
+      "nombre": "Secretaría Académica",
+      "descripcion": "Emisión de constancias, certificados de estudios y registro de información académica de los estudiantes.",
       "ubicacion": "Sede principal",
-      "horario": "Por completar",
-      "costo": "Consultar con la institución.",
+      "horario": "Lunes a viernes, de 01:00 p. m. a 06:30 p. m.",
+      "costo": "Según TUPA del trámite.",
       "responsable": "",
-      "icono": "users",
+      "icono": "book",
       "estado": "Publicado",
       "orden": 2,
       "creadoPor": "importacion-fu",
-      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "fu-servicio-3",
-      "nombre": "Servicio de asistencia social",
-      "descripcion": "Por completar",
+      "nombre": "Titulación",
+      "descripcion": "Orientación y trámite para la obtención del título de Profesional Técnico a nombre de la Nación.",
       "ubicacion": "Sede principal",
-      "horario": "Por completar",
-      "costo": "Consultar con la institución.",
+      "horario": "Lunes a viernes, de 01:00 p. m. a 06:30 p. m.",
+      "costo": "Según TUPA del trámite.",
       "responsable": "",
-      "icono": "users",
+      "icono": "grad",
       "estado": "Publicado",
       "orden": 3,
       "creadoPor": "importacion-fu",
-      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "fu-servicio-4",
-      "nombre": "Servicio de empleabilidad",
-      "descripcion": "Por completar",
+      "nombre": "Seguimiento de egresados",
+      "descripcion": "Registro y acompañamiento de egresados para fortalecer su inserción laboral.",
       "ubicacion": "Sede principal",
-      "horario": "Por completar",
-      "costo": "Consultar con la institución.",
+      "horario": "Lunes a viernes, de 01:00 p. m. a 06:30 p. m.",
+      "costo": "Gratuito",
       "responsable": "",
       "icono": "briefcase",
       "estado": "Publicado",
       "orden": 4,
       "creadoPor": "importacion-fu",
-      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     },
     {
       "id": "fu-servicio-5",
-      "nombre": "Servicio de tópico",
-      "descripcion": "Por completar",
+      "nombre": "Tutoría y consejería",
+      "descripcion": "Acompañamiento a los estudiantes en su formación académica y personal.",
       "ubicacion": "Sede principal",
-      "horario": "Por completar",
-      "costo": "Consultar con la institución.",
+      "horario": "Lunes a viernes, de 01:00 p. m. a 06:30 p. m.",
+      "costo": "Gratuito",
       "responsable": "",
-      "icono": "heart",
+      "icono": "users",
       "estado": "Publicado",
       "orden": 5,
       "creadoPor": "importacion-fu",
-      "creadoEn": "2026-11-02T00:00:00-05:00",
+      "creadoEn": "2026-11-02T09:00:00-05:00",
       "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
-    },
-    {
-      "id": "fu-servicio-6",
-      "nombre": "Mesa de Partes presencial",
-      "descripcion": "Por completar",
-      "ubicacion": "Sede principal",
-      "horario": "Por completar",
-      "costo": "Consultar con la institución.",
-      "responsable": "",
-      "icono": "clipboard",
-      "estado": "Publicado",
-      "orden": 6,
-      "creadoPor": "importacion-fu",
-      "creadoEn": "2026-11-02T00:00:00-05:00",
-      "modPor": "importacion-fu",
-      "modEn": "2026-11-02T00:00:00-05:00"
+      "modEn": "2026-11-02T09:00:00-05:00"
     }
   ],
   "usuarios": [],
@@ -792,18 +1772,18 @@
     "cfg": {
       "nombre": "Instituto de Educación Superior Tecnológico Público “Federico Uranga”",
       "siglas": "IESTP FEDERICO URANGA",
-      "director": "",
-      "direccion": "Por completar — Independencia, Pisco, Ica",
+      "director": "Mag. Mario Freddy Guerra Quispe",
+      "direccion": "Av. San Martín N.º 300, sector Manrique, Independencia, Pisco, Ica",
       "web": "",
       "periodo": "2026-II",
       "plazoReclamo": 15,
-      "horarioAtencion": "Por completar",
+      "horarioAtencion": "Lunes a viernes, de 01:00 p. m. a 06:30 p. m.",
       "maxAdjuntoMB": 10,
       "docs": {
         "logoIzq": {
           "src": "/assets/fu/logo.png",
-          "w": 300,
-          "h": 111
+          "w": 420,
+          "h": 504
         },
         "logoDer": null
       },
@@ -814,7 +1794,35 @@
       "cert": 0,
       "titulo": 0
     },
-    "programas": [],
+    "programas": [
+      {
+        "id": 1,
+        "cod": "M2982-3-004",
+        "nombre": "Asistencia Administrativa",
+        "dur": "3 años",
+        "sem": 6,
+        "activo": true,
+        "pid": "aa"
+      },
+      {
+        "id": 2,
+        "cod": "IAB",
+        "nombre": "Industrias de Alimentos y Bebidas",
+        "dur": "3 años",
+        "sem": 6,
+        "activo": true,
+        "pid": "iab"
+      },
+      {
+        "id": 3,
+        "cod": "MA",
+        "nombre": "Mecánica Agrícola",
+        "dur": "3 años",
+        "sem": 6,
+        "activo": true,
+        "pid": "ma"
+      }
+    ],
     "uds": [],
     "docentes": [],
     "ambientes": [],
@@ -831,8 +1839,8 @@
         "cod": "MP",
         "nivel": "Mesa de Partes",
         "nombre": "Mesa de Partes",
-        "resp": "Por completar",
-        "correo": "",
+        "resp": "Por designar",
+        "correo": "istpfedericouranga@gmail.com",
         "activo": true
       },
       {
@@ -840,8 +1848,8 @@
         "cod": "DG",
         "nivel": "Dirección",
         "nombre": "Dirección General",
-        "resp": "Por completar",
-        "correo": "",
+        "resp": "Mag. Mario Freddy Guerra Quispe",
+        "correo": "istpfedericouranga@gmail.com",
         "activo": true
       },
       {
@@ -849,8 +1857,8 @@
         "cod": "ADM",
         "nivel": "Unidades",
         "nombre": "Unidad Administrativa",
-        "resp": "Por completar",
-        "correo": "",
+        "resp": "Por designar",
+        "correo": "istpfedericouranga@gmail.com",
         "activo": true
       },
       {
@@ -858,8 +1866,8 @@
         "cod": "UA",
         "nivel": "Unidades",
         "nombre": "Unidad Académica",
-        "resp": "Por completar",
-        "correo": "",
+        "resp": "Por designar",
+        "correo": "istpfedericouranga@gmail.com",
         "activo": true
       },
       {
@@ -867,8 +1875,8 @@
         "cod": "SA",
         "nivel": "Áreas",
         "nombre": "Secretaría Académica",
-        "resp": "Por completar",
-        "correo": "",
+        "resp": "Por designar",
+        "correo": "istpfedericouranga@gmail.com",
         "activo": true
       },
       {
@@ -876,17 +1884,17 @@
         "cod": "UBE",
         "nivel": "Áreas",
         "nombre": "Bienestar y Empleabilidad",
-        "resp": "Por completar",
-        "correo": "",
-        "activo": true
+        "resp": "Por designar",
+        "correo": "istpfedericouranga@gmail.com",
+        "activo": false
       },
       {
         "id": 7,
         "cod": "UI",
         "nivel": "Áreas",
         "nombre": "Investigación",
-        "resp": "Por completar",
-        "correo": "",
+        "resp": "Por designar",
+        "correo": "istpfedericouranga@gmail.com",
         "activo": true
       },
       {
@@ -894,18 +1902,18 @@
         "cod": "UFC",
         "nivel": "Áreas",
         "nombre": "Formación Continua",
-        "resp": "Por completar",
-        "correo": "",
-        "activo": true
+        "resp": "Por designar",
+        "correo": "istpfedericouranga@gmail.com",
+        "activo": false
       },
       {
         "id": 9,
         "cod": "CAL",
         "nivel": "Áreas",
         "nombre": "Calidad",
-        "resp": "Por completar",
-        "correo": "",
-        "activo": true
+        "resp": "Por designar",
+        "correo": "istpfedericouranga@gmail.com",
+        "activo": false
       }
     ],
     "tramites": [],
@@ -1038,7 +2046,11 @@
     "docs": [],
     "notifs": [],
     "bitacora": [],
-    "progMap": {}
+    "progMap": {
+      "aa": 1,
+      "iab": 2,
+      "ma": 3
+    }
   },
   "correos": [],
   "suscriptores": []
