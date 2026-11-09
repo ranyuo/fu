@@ -244,7 +244,9 @@ function impApplyColors(t) {
   if (key === 'campus') { const txt = (() => { let x = c.primario; for (let k = 0; k < 14 && contrast(x, '#ffffff') < 4.5; k++) x = mix(x, '#000000', .08); return x; })();
     st.textContent = `:root[data-layout="campus"] body:not(.is-admin){--kp:${c.primario};--kpo:${on(c.primario)};--kpd:${mix(c.primario, '#000000', .2)};--kpt:${txt};--kpl:${mix(c.primario, '#ffffff', .92)};--kk:${c.oscuro};--kko:${on(c.oscuro)};--kf:${c.pie};--kfo:${on(c.pie)}}`; return; }
   if (key === 'horizonte') { st.textContent = `:root[data-layout="horizonte"] body:not(.is-admin){--hp:${c.primario};--hpo:${on(c.primario)};--hpd:${mix(c.primario, '#000000', .28)};--hpl:${mix(c.primario, '#ffffff', .55)};--ha:${c.acento};--hao:${on(c.acento)};--hat:${(() => { if (contrast(c.acento, '#ffffff') >= 4.5) return c.acento; if (contrast(c.acento, '#ffffff') >= 3.2) { let x = c.acento; for (let k = 0; k < 8 && contrast(x, '#ffffff') < 4.5; k++) x = mix(x, '#000000', .06); return x; } let x = mix(c.primario, '#2f7cf6', .55); for (let k = 0; k < 12 && contrast(x, '#ffffff') < 4.5; k++) x = mix(x, '#000000', .08); return x; })()};--hf:${c.fondo}}`; return; }
-  st.textContent = `:root[data-layout="impacto"] body:not(.is-admin){--iy:${c.acento};--ion:${on(c.acento)};--id:${c.oscuro};--icta:${c.boton};--icton:${on(c.boton)};--ik:${c.titulos}}`;
+  // Títulos en el color destacado sobre fondo claro: se oscurece lo justo para leerse (3:1, texto grande).
+  const iyt = (() => { let x = c.acento; for (let k = 0; k < 16 && contrast(x, '#ffffff') < 3; k++) x = mix(x, '#000000', .08); return x; })();
+  st.textContent = `:root[data-layout="impacto"] body:not(.is-admin){--iyt:${iyt};--iy:${c.acento};--ion:${on(c.acento)};--id:${c.oscuro};--icta:${c.boton};--icton:${on(c.boton)};--ik:${c.titulos}}`;
 }
 const DISENOS = [
   ['clasico', 'Clásico institucional', 'Diseño original del portal: cabecera institucional, carrusel y bloques en tarjetas.'],
@@ -263,6 +265,9 @@ function applyTheme() {
   if (t.modo === 'oscuro') document.documentElement.dataset.mode = 'dark'; else delete document.documentElement.dataset.mode;
   const lay = DB.config.diseno; if (DISENOS.some(d => d[0] === lay) && lay !== 'clasico') document.documentElement.dataset.layout = IMP_KEYS.includes(lay) ? 'impacto' : lay; else delete document.documentElement.dataset.layout;
   impApplyColors(t);
+  // Impacto, Campus, Horizonte y Editorial no tienen versión oscura: con una combinación oscura, el sitio público usa sus tonos claros (el panel sigue oscuro).
+  let nd = document.getElementById('nodark-vars'); if (!nd) { nd = document.createElement('style'); nd.id = 'nodark-vars'; document.head.appendChild(nd); }
+  nd.textContent = t.modo === 'oscuro' ? NO_DARK.map(k => `:root[data-layout="${k}"] body:not(.is-admin)`).join(',') + '{' + Object.entries(Object.assign({}, LIGHT_NEUTRALS_ALL, themeVars(Object.assign({}, t, { modo: 'claro' })))).map(([k, x]) => `${k}:${x}`).join(';') + ';color-scheme:light;color:var(--ink);background:var(--page)}' : '';
   if (IMP_KEYS.includes(lay) && !document.getElementById('font-impacto')) { const l = document.createElement('link'); l.id = 'font-impacto'; l.rel = 'stylesheet'; l.href = 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'; document.head.appendChild(l); }
   TC = { navy: t.navy, navy2: t.navy2, blue: t.blue, gold: t.gold };
   const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = t.navy;
@@ -3046,6 +3051,9 @@ CUSTOM.respaldo = () => ({html:admHead('Respaldos y restauración','Copias compl
 /* ---------- Enrutador del panel ---------- */
 const MOD_OF = { tupacfg: 'tupa', becasimport: 'becas', becasrep: 'becas', popup: 'portada', portada: 'portada' };
 /* ---------- Temas y apariencia (solo el panel elige y edita el tema) ---------- */
+/* Estructuras sin versión oscura y los neutros claros que usan con una combinación oscura (mismos valores que :root en portal.css) */
+const NO_DARK = ['impacto', 'campus', 'horizonte', 'editorial'];
+const LIGHT_NEUTRALS_ALL = { '--page': '#fff', '--card': '#fff', '--card2': '#f6f9fd', '--bg': '#f4f7fb', '--bg2': '#eff3f9', '--white': '#fff', '--ink': '#1b2433', '--ink2': '#4a5568', '--muted': '#5f6b7c', '--line': '#dfe5ee', '--line2': '#c9d5e6', '--ok': '#18794a', '--okbg': '#e3f5ea', '--okink': '#0f5a31', '--warn': '#955800', '--warnbg': '#fff3dc', '--warnink': '#6b4200', '--err': '#c62828', '--errbg': '#fde8e8', '--errink': '#7a1414', '--info': '#1556b8', '--infobg': '#e8f0fc', '--infoink': '#0b3a7e', '--violet': '#5b3cc4', '--violetbg': '#efeafd', '--graybg': '#eef0f3', '--grayink': '#55606e', '--sh': '0 1px 2px rgba(var(--ov),.06),0 4px 14px rgba(var(--ov),.07)', '--sh2': '0 10px 34px rgba(var(--ov),.18)' };
 const DARK_NEUTRALS = { '--page': '#0b1220', '--card': '#121c32', '--card2': '#16223b', '--bg': '#0e1729', '--line': '#24324e', '--ink': '#e4e9f2', '--ink2': '#b4bfd3', '--muted': '#8e9ab0' };
 const LIGHT_NEUTRALS = { '--page': '#ffffff', '--card': '#ffffff', '--ink': '#1b2433', '--ink2': '#4a5568', '--muted': '#5f6b7c' };
 function themeScope(t) {
@@ -3174,8 +3182,8 @@ function temaEditor(key) {
       $$('[data-save]').forEach(b => b.onclick = async () => {
         $$('.field.invalid', f).forEach(x => x.classList.remove('invalid')); $$('.errmsg', f).forEach(x => x.remove());
         const label = (w.label || '').trim(); let err = '';
-        if (!label) err = 'Ingrese el nombre del tema.';
-        else if (Object.entries(T).some(([k, t]) => k !== key && t.label.toLowerCase() === label.toLowerCase())) err = 'Ya existe un tema con ese nombre.';
+        if (!label) err = 'Ingrese el nombre de la combinación.';
+        else if (Object.entries(T).some(([k, t]) => k !== key && t.label.toLowerCase() === label.toLowerCase())) err = 'Ya existe una combinación con ese nombre.';
         if (err) { const fl = $('#tf-l').closest('.field'); fl.classList.add('invalid'); fl.insertAdjacentHTML('beforeend', `<div class="errmsg">${err}</div>`); $('#tf-l').focus(); return; }
         if (['navy', 'navy2', 'blue', 'gold'].some(c => !validHex(w[c]))) { toast('Revise los códigos de color: deben tener el formato #RRGGBB.', 'err'); return; }
         if (themeChecks(w).some(x => x.c < 3) && !await confirmBox('Algunas combinaciones de color tienen contraste insuficiente y pueden ser difíciles de leer. ¿Guardar de todos modos?', { ok: 'Guardar igual', danger: false })) return;
