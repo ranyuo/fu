@@ -3642,3 +3642,10 @@ form[data-bs] .btn{white-space:nowrap;flex:none}
 :root[data-layout="campus"] body:not(.is-admin) .k-mini a:hover span,:root[data-layout="campus"] body:not(.is-admin) .k-mini a:focus-visible span{max-width:160px}
 @media (max-width:760px){:root[data-layout="campus"] body:not(.is-admin) .k-float{display:none}}
 :root[data-layout="campus"] body:not(.is-admin) .k-ng b{color:color-mix(in srgb,var(--kp) 62%,#fff);filter:none}
+
+/* Sin «Texto del logotipo generado» se muestra el nombre corto oficial completo: tamaño reducido y en varias líneas para no desbordar la cabecera */
+body:not(.is-admin) .b-long strong,body:not(.is-admin) .pp-logo.b-long b{font-size:21px!important;line-height:1.08!important;letter-spacing:0!important;max-width:230px;white-space:normal;overflow-wrap:break-word}
+body:not(.is-admin) .h-fbrand.b-long strong{max-width:none}
+@media (max-width:760px){body:not(.is-admin) .b-long strong,body:not(.is-admin) .pp-logo.b-long b{font-size:16px!important;max-width:170px}}
+:root[data-layout="campus"] body:not(.is-admin) .k-brand.b-long strong{font-size:17px!important;max-width:140px}
+@media (max-width:1600px){:root[data-layout="campus"] body:not(.is-admin) .k-brand.b-long img{width:46px;height:46px}}
