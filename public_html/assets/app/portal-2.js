@@ -199,58 +199,34 @@ function themeVars(t) {
   else { const sky = mix(t.blue, '#ffffff', .9); let link = t.blue; for (let k = 0; k < 10 && contrast(link, sky) < 4.6; k++) link = mix(link, '#000000', .1); Object.assign(v, { '--sky': sky, '--hc': t.navy, '--link': link, '--blue-rgb': hexRgb(t.blue).join(','), '--card2': mix(t.blue, '#ffffff', .975), '--bg': mix(t.blue, '#ffffff', .955), '--bg2': mix(t.blue, '#ffffff', .935), '--line': mix(t.navy, '#ffffff', .875), '--line2': mix(t.navy, '#ffffff', .77), '--info': t.blue, '--infobg': mix(t.blue, '#ffffff', .9), '--infoink': mix(t.navy, '#000000', .1) }); }
   return v;
 }
-/* Colores de los diseños «Impacto» y «Impacto institucional»: vacío = color tomado del tema activo */
+/* Todas las estructuras toman sus colores de los 3 colores del portal (Institucional, Botones y enlaces, Destacado).
+   Lo guardado en «Opciones avanzadas» (DB.config.disenoColores) solo reemplaza el color indicado. */
+/* «Impacto» («impacto-fu» se migra a «impacto» en el servidor) */
 const IMP_KEYS = ['impacto', 'impacto-fu'];
 const IMP_CAMPOS = [['acento', 'Color de acento', 'Bloque del logotipo, recuadros, títulos destacados y detalles'], ['oscuro', 'Color oscuro', 'Franja de cifras, pie de página y banner de las páginas interiores'], ['boton', 'Botón «Postula»', 'Botón principal de la cabecera'], ['titulos', 'Títulos', 'Color de los títulos sobre fondo blanco']];
-/* combinaciones sugeridas: todas con la paleta institucional del IESTP Federico Uranga, probadas por contraste */
-const IMP_PRESETS = [
-  ['Federico Uranga institucional', { acento: '#f5c400', oscuro: '#0b1d3f', boton: '#0a7fc2', titulos: '#0b1d3f' }],
-  ['Azul y oro', { acento: '#f2b705', oscuro: '#16449a', boton: '#0c2a5b', titulos: '#16449a' }],
-  ['Marino con detalles azules', { acento: '#1e5fc8', oscuro: '#0c2a5b', boton: '#f2b705', titulos: '#0c2a5b' }],
-  ['Noche y dorado', { acento: '#f2b705', oscuro: '#0b1530', boton: '#f2b705', titulos: '#0b1530' }],
-  ['Amarillo y negro', { acento: '#f2b705', oscuro: '#000000', boton: '#1e5fc8', titulos: '#0d0d0d' }],
-];
-function impDefaults(key, t) { return key === 'impacto-fu' ? { acento: t.gold, oscuro: t.navy, boton: t.blue, titulos: t.navy } : { acento: t.gold, oscuro: '#000000', boton: t.blue, titulos: '#0d0d0d' }; }
+const impDefaults = t => ({ acento: t.gold, oscuro: t.navy, boton: t.blue, titulos: t.navy });
 /* «Horizonte»: color principal, acento y fondo claro */
 const HOR_CAMPOS = [['primario', 'Color principal', 'Bloque del logotipo, franjas, títulos y pie de página'], ['acento', 'Color de acento', 'Botón «Postula», flechas, palabras destacadas y enlaces'], ['fondo', 'Fondo claro', 'Fondo de las secciones claras']];
-const HOR_PRESETS = [
-  ['Azul y naranja', { primario: '#1e3f8a', acento: '#cc4a0a', fondo: '#eef4fd' }],
-  ['Federico Uranga institucional', { primario: '#0b1d3f', acento: '#f5c400', fondo: '#eef3fb' }],
-  ['Azul institucional y dorado', { primario: '#123a7a', acento: '#f5c400', fondo: '#f1f6fe' }],
-  ['Marino y celeste', { primario: '#0c2a5b', acento: '#1a6fc0', fondo: '#eef5fd' }],
-  ['Azul y verde', { primario: '#163e7a', acento: '#0c7556', fondo: '#eef6f3' }],
-];
 /* «Campus»: color principal, oscuro (botones y tarjetas) y pie */
 const CAM_CAMPOS = [['primario', 'Color principal', 'Barra superior, títulos, botones principales y franja del pie'], ['oscuro', 'Color oscuro', 'Pestaña activa, botones secundarios y tarjetas de «¿Por qué estudiar?»'], ['pie', 'Fondo de enlaces del pie', 'Bloque de enlaces sobre la franja de color']];
-const CAM_PRESETS = [
-  ['Carmesí y negro', { primario: '#d6173c', oscuro: '#111111', pie: '#4a4a4a' }],
-  ['Federico Uranga institucional', { primario: '#0b1d3f', oscuro: '#111827', pie: '#1f2f4d' }],
-  ['Azul institucional y gris', { primario: '#0a7fc2', oscuro: '#0b1d3f', pie: '#3f4650' }],
-  ['Vino académico', { primario: '#8a1538', oscuro: '#1c1c1c', pie: '#463238' }],
-  ['Verde y grafito', { primario: '#0f7a5c', oscuro: '#1b1f1d', pie: '#3c4541' }],
-];
-/* Clásico, Moderno y Universitario: vacío = colores del tema activo */
+/* Clásico, Moderno y Universitario */
 const BASE_CAMPOS = [['principal', 'Color principal', 'Cabecera, títulos, franjas y pie de página'], ['secundario', 'Color secundario', 'Botones, enlaces y elementos interactivos'], ['acento', 'Color de acento', 'Detalles, líneas, etiquetas y cifras destacadas']];
-const BASE_PRESETS = [
-  ['Federico Uranga institucional', { principal: '#0b1d3f', secundario: '#0a7fc2', acento: '#f5c400' }],
-  ['Azul y oro', { principal: '#16449a', secundario: '#0c2a5b', acento: '#f2b705' }],
-  ['Marino y celeste', { principal: '#0c2a5b', secundario: '#1a6fc0', acento: '#5fb3f0' }],
-  ['Vino académico', { principal: '#5c1027', secundario: '#8a1538', acento: '#d9a441' }],
-  ['Verde institucional', { principal: '#0f3d2e', secundario: '#0f7a5c', acento: '#e0b13a' }],
-];
 const baseDef = t => ({ principal: t.navy, secundario: t.blue, acento: t.gold });
 /* diseños con colores configurables */
 const DCFG = {
-  'clasico': { campos: BASE_CAMPOS, presets: BASE_PRESETS, def: baseDef },
-  'moderno': { campos: BASE_CAMPOS, presets: BASE_PRESETS, def: baseDef },
-  'universitario': { campos: BASE_CAMPOS, presets: BASE_PRESETS, def: baseDef },
-  'impacto': { campos: IMP_CAMPOS, presets: IMP_PRESETS, def: t => impDefaults('impacto', t) },
-  'impacto-fu': { campos: IMP_CAMPOS, presets: IMP_PRESETS, def: t => impDefaults('impacto-fu', t) },
-  'campus': { campos: CAM_CAMPOS, presets: CAM_PRESETS, def: () => ({ primario: '#d6173c', oscuro: '#111111', pie: '#4a4a4a' }) },
-  'horizonte': { campos: HOR_CAMPOS, presets: HOR_PRESETS, def: () => ({ primario: '#1e3f8a', acento: '#cc4a0a', fondo: '#eef4fd' }) },
+  'clasico': { campos: BASE_CAMPOS, def: baseDef },
+  'moderno': { campos: BASE_CAMPOS, def: baseDef },
+  'universitario': { campos: BASE_CAMPOS, def: baseDef },
+  'impacto': { campos: IMP_CAMPOS, def: impDefaults },
+  'campus': { campos: CAM_CAMPOS, def: t => ({ primario: t.navy, oscuro: mix(t.navy, '#000000', .55), pie: mix(t.navy, '#000000', .3) }) },
+  'horizonte': { campos: HOR_CAMPOS, def: t => ({ primario: t.navy, acento: t.gold, fondo: mix(t.blue, '#ffffff', .92) }) },
 };
 const dOn = bg => contrast('#ffffff', bg) >= contrast('#111111', bg) ? '#ffffff' : '#111111';
 const hexOk = (v, f) => /^#[0-9a-f]{6}$/i.test(String(v || '')) ? v : f;
+/* Colores del tema con valores de respaldo válidos */
+const themeSafe = t => Object.assign({}, t, { navy: hexOk(t && t.navy, '#0b1d3f'), navy2: hexOk(t && t.navy2, '#123a7a'), blue: hexOk(t && t.blue, '#0a7fc2'), gold: hexOk(t && t.gold, '#f5c400') });
+/* Combinaciones para «Opciones avanzadas»: las mismas del paso 2, traducidas a los campos de cada estructura */
+const dPresets = cf => Object.values(DB.config.temas || {}).map(t => [t.label, cf.def(themeSafe(t))]);
 function impColors(key, t) { const cf = DCFG[key]; t = Object.assign({}, t, { navy: hexOk(t && t.navy, '#0b1d3f'), navy2: hexOk(t && t.navy2, '#123a7a'), blue: hexOk(t && t.blue, '#0a7fc2'), gold: hexOk(t && t.gold, '#f5c400') }); const d = cf.def(t), c = ((DB.config.disenoColores || {})[key]) || {}; const o = {}; for (const [k] of cf.campos) o[k] = /^#[0-9a-f]{6}$/i.test(c[k] || '') ? c[k] : d[k]; return o; }
 function impApplyColors(t) {
   let st = document.getElementById('imp-vars'); const key = DB.config.diseno;
@@ -274,10 +250,9 @@ const DISENOS = [
   ['clasico', 'Clásico institucional', 'Diseño original del portal: cabecera institucional, carrusel y bloques en tarjetas.'],
   ['moderno', 'Moderno', 'Portada a pantalla completa, menú flotante con efecto vidrio, tarjetas amplias con esquinas redondeadas y sombras suaves.'],
   ['editorial', 'Editorial', 'Estilo de revista digital: tipografía grande, líneas finas, fondo claro y la noticia principal destacada en grande.'],
-  ['impacto', 'Impacto', 'Alto contraste en amarillo y negro: logotipo en bloque de color, portada a pantalla completa, títulos condensados en mayúsculas, mosaico de programas, recuadros de color y franja negra de logros. El menú principal no cambia.'],
-  ['impacto-fu', 'Impacto institucional', 'La estructura de Impacto con los colores institucionales: logotipo en bloque dorado, franjas y pie en azul marino y botón «Postula» en azul. Los colores se pueden ajustar.'],
-  ['campus', 'Campus', 'Portal de universidad con barra superior de color, menú en mayúsculas sobre la portada, títulos centrados subrayados, tarjetas de programas en capas de colores, botones flotantes «Postula», eventos y noticias en tarjetas y pie en dos bloques. Los colores se pueden ajustar.'],
-  ['horizonte', 'Horizonte', 'Portal de universidad moderna: cabecera con logotipo en bloque de color, tarjeta translúcida sobre la portada, panel de oferta formativa, franjas de color con esquinas redondeadas y títulos en dos colores. Los colores se pueden ajustar.'],
+  ['impacto', 'Impacto', 'Alto contraste: logotipo en bloque del color destacado, portada a pantalla completa, títulos condensados en mayúsculas, mosaico de programas, recuadros de color y franja oscura de logros. El menú principal no cambia.'],
+  ['campus', 'Campus', 'Portal de universidad con barra superior de color, menú en mayúsculas sobre la portada, títulos centrados subrayados, tarjetas de programas en capas de color, botones flotantes «Postula», eventos y noticias en tarjetas y pie en dos bloques.'],
+  ['horizonte', 'Horizonte', 'Portal de universidad moderna: cabecera con logotipo en bloque de color, tarjeta translúcida sobre la portada, panel de oferta formativa, franjas de color con esquinas redondeadas y títulos en dos colores.'],
   ['universitario', 'Universitario', 'Portal de estilo universitario: cabecera oscura con logotipo en bloque blanco, programas con íconos circulares, franjas oscuras y carruseles en paneles. El menú principal no cambia.'],
 ];
 function applyTheme() {
@@ -968,7 +943,7 @@ function horBlocks(base, h, i) {
 /* ===== Diseño «Campus»: barra de color, menú en mayúsculas sobre la portada y tarjetas en capas ===== */
 const isCam = () => !!(DB && DB.config && DB.config.diseno === 'campus') && !document.body.classList.contains('is-admin');
 const kTtl = (t, tag = 'h2', cls = '') => `<${tag} class="k-ttl ${cls}">${t}</${tag}>`;
-const K_TONOS = ['var(--kp)', '#0b7d87', '#2a4f8f', '#8a5596'];
+const K_TONOS = ['var(--kp)', 'var(--blue)', 'var(--kk)', 'var(--navy2)']; // capas de color de Campus: todas salen de los colores del portal
 function camHeader(path, nav, cur) {
   const i = inst(); const r = DB.config.redes || {};
   const soc = ['facebook', 'youtube', 'instagram', 'tiktok'].filter(k => r[k]).map(k => `<a href="${esc(r[k])}" target="_blank" rel="noopener noreferrer" aria-label="${k} (se abre en una pestaña nueva)">${bic(k)}</a>`).join('');
@@ -3098,20 +3073,19 @@ function themeChecks(t) {
 }
 const checksHTML = t => `<ul class="tm-checks">${themeChecks(t).map(r => `<li><span>${esc(r.l)}</span><b>${r.c.toFixed(1)}:1</b><span class="badge ${r.s[0]}">${r.s[1]}</span></li>`).join('')}</ul>`;
 
-/* Variantes de un diseño que solo cambian los colores: se ocultan salvo que estén activas (los colores se eligen en el paso 2). */
-const DISENO_VARIANTES = ['impacto-fu'];
 function disenoPanel() {
   const cur = DISENOS.some(d => d[0] === DB.config.diseno) ? DB.config.diseno : 'clasico';
   const mock = k => `<div class="ds-mock ds-${k}" aria-hidden="true"><i class="m-top"></i><i class="m-hero"><b></b><b></b></i><i class="m-cards"><b></b><b></b><b></b></i></div>`;
-  const list = DISENOS.filter(([k]) => k === cur || !DISENO_VARIANTES.includes(k));
+  const t = themeSafe(DB.config.temas[DB.config.tema]);
+  const mk = `--mk-n:${t.navy};--mk-n2:${t.navy2};--mk-b:${t.blue};--mk-g:${t.gold};--mk-d:${mix(t.navy, '#000000', .55)};--mk-l:${mix(t.blue, '#ffffff', .88)}`;
   return `<section class="panel ds-panel ap-step"><div class="pb"><h2 class="ap-h"><span class="ap-n">1</span> Estructura de la página</h2><p class="ap-p">Cómo se organiza el sitio público: cabecera, portada y bloques. No cambia los colores ni el contenido.</p>
-    <div class="ds-grid">${list.map(([k, l, d]) => `<article class="ds-item${k === cur ? ' on' : ''}">${mock(k)}<div class="tm-body"><h3>${esc(l)} ${k === cur ? '<span class="badge ok">En uso</span>' : ''}</h3><p>${esc(d)}</p><div class="tm-acts">${k === cur ? '' : `<button class="btn sm" data-dis="${k}">${sic('check', 14)} Usar esta estructura</button>`}</div></div></article>`).join('')}</div></div></section>`;
+    <div class="ds-grid" style="${mk}">${DISENOS.map(([k, l, d]) => `<article class="ds-item${k === cur ? ' on' : ''}">${mock(k)}<div class="tm-body"><h3>${esc(l)} ${k === cur ? '<span class="badge ok">En uso</span>' : ''}</h3><p>${esc(d)}</p><div class="tm-acts">${k === cur ? '' : `<button class="btn sm" data-dis="${k}">${sic('check', 14)} Usar esta estructura</button>`}</div></div></article>`).join('')}</div></div></section>`;
 }
 function impColorPanel(key) {
   const t = DB.config.temas[DB.config.tema]; const cf = DCFG[key]; const c = impColors(key, t), d = cf.def(t); const label = (DISENOS.find(x => x[0] === key) || [])[1];
   return `<form class="ds-colors" data-impcol="${key}"><p>Normalmente no hace falta: la estructura «${esc(label)}» ya usa los colores del paso 2. Úselo solo si quiere colores distintos únicamente en esta estructura. «Restablecer» vuelve a los colores del paso 2.</p>
     <div class="ds-cgrid">${cf.campos.map(([k, l, h]) => `<label class="ds-c"><span><b>${esc(l)}</b><small>${esc(h)}</small></span><input type="color" name="${k}" value="${esc(c[k])}" data-def="${esc(d[k])}"><code>${esc(c[k])}</code></label>`).join('')}</div>
-    <div class="ds-pre"><span>Combinaciones sugeridas:</span>${cf.presets.map(([n, v], k) => `<button type="button" class="ds-pb" data-imppre="${k}" title="${esc(n)}">${Object.values(v).slice(0, 3).map(x => `<i style="background:${x}"></i>`).join('')}${esc(n)}</button>`).join('')}</div>
+    <div class="ds-pre"><span>Partir de una combinación:</span>${dPresets(cf).map(([n, v], k) => `<button type="button" class="ds-pb" data-imppre="${k}" title="${esc(n)}">${Object.values(v).slice(0, 3).map(x => `<i style="background:${x}"></i>`).join('')}${esc(n)}</button>`).join('')}</div>
     <div class="ds-cprev ds-cprev-g" aria-hidden="true">${cf.campos.map(([k, l]) => `<i data-pk="${k}">${esc(l)}</i>`).join('')}</div>
     <div class="tm-acts"><button class="btn sm" type="submit">${sic('check', 14)} Guardar colores</button><button class="btn sm sec" type="button" data-impreset>Restablecer</button></div></form>`;
 }
@@ -3136,7 +3110,7 @@ CUSTOM.temas = (parts) => {
         const CF = DCFG[fc.dataset.impcol];
         const prev = () => { CF.campos.forEach(([k]) => { const v = fc.elements[k].value; const chip = $(`[data-pk="${k}"]`, fc); if (chip) { chip.style.background = v; chip.style.color = dOn(v); } }); $$('.ds-c', fc).forEach(l => { $('code', l).textContent = $('input', l).value; }); };
         fc.addEventListener('input', prev); prev();
-        $$('[data-imppre]', fc).forEach(b => b.onclick = () => { const v = CF.presets[+b.dataset.imppre][1]; CF.campos.forEach(([k]) => { fc.elements[k].value = v[k]; }); prev(); });
+        $$('[data-imppre]', fc).forEach(b => b.onclick = () => { const v = dPresets(CF)[+b.dataset.imppre][1]; CF.campos.forEach(([k]) => { fc.elements[k].value = v[k]; }); prev(); });
         $('[data-impreset]', fc).onclick = () => { CF.campos.forEach(([k]) => { fc.elements[k].value = fc.elements[k].dataset.def; }); prev(); };
         fc.onsubmit = e => { e.preventDefault(); const key = fc.dataset.impcol; const out = {}; CF.campos.forEach(([k]) => { const v = fc.elements[k].value.toLowerCase(); if (v !== fc.elements[k].dataset.def.toLowerCase()) out[k] = v; });
           DB.config.disenoColores = Object.assign({}, DB.config.disenoColores || {}, { [key]: out }); audit('Cambio de colores del diseño', 'Temas y apariencia', key); if (!saveDB()) return; applyTheme(); toast('Colores de la estructura guardados.', 'ok'); route(); };
