@@ -47,7 +47,7 @@ La base de datos se actualiza sola la primera vez que se abre el sitio con la ve
 
 ## Qué trae el sistema v2
 
-- **Diseños del portal:** en *Temas y apariencia › Diseño del portal* se elige entre **Clásico institucional** (el actual), **Moderno**, **Universitario**, **Editorial**, **Impacto**, **Impacto institucional**, **Horizonte** y **Campus**. Los colores de cada diseño se ajustan en *Temas y apariencia › Colores del diseño*; si no se cambian, siguen el tema activo (azul y dorado de Federico Uranga).
+- **Apariencia del portal** (botón «Apariencia» de la intranet), en tres pasos: **1. Estructura de la página** (Clásico institucional —la actual—, Moderno, Universitario, Editorial, Impacto, Horizonte o Campus; solo cambia la forma), **2. Colores y letras** (color institucional, de botones y enlaces y destacado; todas las estructuras usan estos colores, azul y dorado de Federico Uranga por omisión) y **3. Opciones avanzadas** (colores propios de una sola estructura; normalmente no hace falta). Con una combinación oscura, Impacto, Campus, Horizonte y Editorial muestran el sitio público con tonos claros porque no tienen versión oscura. Si *Texto del logotipo generado* está vacío, junto al logotipo se muestra el nombre corto oficial completo.
 - **Programas de estudio en carrusel** (portada y página de programas). Para cambiar a cuadrícula: *Vista en la web* en *Programas de estudio*.
 - **Noticias con galería:** imagen principal y hasta 4 fotos adicionales, con visor ampliado.
 - **Notificaciones por correo (SMTP)** de trámites, reclamos, Bolsa laboral, derivaciones y cambios de estado, con cola de reintentos.
