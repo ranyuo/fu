@@ -1,5 +1,5 @@
 {
-  "__v": 13,
+  "__v": 14,
   "config": {
     "inst": {
       "nombre": "Instituto de Educación Superior Tecnológico Público “Federico Uranga”",
@@ -23,7 +23,9 @@
       "descripcion": "Institución pública de educación superior tecnológica de Independencia, Pisco, que forma profesionales técnicos competentes, éticos e innovadores en Asistencia Administrativa, Industrias de Alimentos y Bebidas y Mecánica Agrícola.",
       "logo": "/assets/fu/logo.png",
       "colorPrimario": "#0b1d3f",
-      "denominacionAnio": ""
+      "denominacionAnio": "",
+      "distrito": "Independencia",
+      "region": "Ica"
     },
     "redes": {
       "facebook": "",
@@ -192,7 +194,8 @@
           "d": "Tres programas de estudio de 3 años vinculados con las necesidades productivas de Pisco y la región Ica.",
           "i": "book"
         }
-      ]
+      ],
+      "programasVista": "carrusel"
     },
     "tema": "pisco",
     "mpv": {
@@ -353,7 +356,8 @@
         "base": true
       }
     },
-    "enlacesV2": true
+    "enlacesV2": true,
+    "diseno": "clasico"
   },
   "slides": [
     {
@@ -2120,7 +2124,7 @@
         "docentes": 1,
         "usuarios": 0,
         "bitacora": 1,
-        "config": 0,
+        "config": 1,
         "arquitectura": 1,
         "alumnos": 1
       },
@@ -2135,7 +2139,7 @@
         "docentes": 1,
         "usuarios": 0,
         "bitacora": 0,
-        "config": 0,
+        "config": 2,
         "arquitectura": 1,
         "alumnos": 2
       },
